@@ -1,0 +1,19 @@
+{% assign contact-texts = site.data.contact-texts[page.lang] | first %}
+<div class="full-screen d-flex flex-column justify-content-between align-items-center">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="contact-sent-pg">
+      <span class="sr-only">image of a bird delivering a paper</span>
+    </div>
+    <section class="send-section-text">
+      <h2 class="contact-send-title">{{ page.title }}</h2>
+      <p class="contact-send-text">{{ page.lead-text }}</p>
+      {% assign todaysDate = site.time | date: '%s' %}
+      <p class="contact-send-text small">
+        {{ contact-texts.reply-date }}:<br>
+        {{ todaysDate | date: "%d-%m-%Y" }} – {{ todaysDate | date: "%H:%M" }}</p>
+    </section>
+  </div>
+</div>
+<!-- Go back -->
+{% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+{% include _components/arrow-left-go-back.html %}

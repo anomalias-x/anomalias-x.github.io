@@ -1,0 +1,31 @@
+<!-- Left side -->
+<a id="asideLeftLogo" class="aside-img aside-left-logo"
+  {% include _components/navbar-brand-url.html %}>
+  <span class="sr-only">Logotipo</span>
+</a>
+<!-- Right side -->
+<details id="rightMenuNavbar">
+  <summary class="aside-img aside-right-menu"></summary>
+  <nav class="right-menu-navbar navtabs-bg">
+    <ul class="nav flex-column justify-content-center full-screen">
+    <!-- Layout 1 -->
+      {% include _components/navbar-tabs-lyt1.html %}
+      <!-- Close cross icon -->
+       <li class="nav-item" >
+         <a onclick="closeDetailsRightMenu()" href="#rightMenuNavbar"  class="nav-link-icon" >
+           <img src="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/svg/icons8-close-pink-big.svg" alt="">
+         </a>
+       </li>
+       <!-- Layout 2 -->
+       {% comment %}
+       {% include _components/navbar-tabs-lyt2.html %}
+       {% endcomment %}
+       <!-- Close cross icon -->
+        <!-- <li class="nav-item" >
+          <a onclick="closeDetailsRightMenu()" href="#rightMenuNavbar" class="cross">
+            <span class="pink font-light d-block font-size-35pt">X</span>
+          </a>
+        </li> -->
+    </ul>
+  </nav>
+</details>

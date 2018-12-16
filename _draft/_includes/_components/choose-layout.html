@@ -1,0 +1,26 @@
+<!-- Regular Layout -->
+<div class="container-flex">
+{% if page.lang == "pt" %}
+  <a  href="{{ site.baseurl }}/layout1/" class="container-img-lyt img-lyt img-layout1 img-layout1-pt">
+{% endif %}
+{% if page.lang == "en"  %}
+  <a href="{{ site.baseurl }}/{{ site.language.second }}/layout1/" class="container-img-lyt img-lyt img-layout1 img-layout1-en">
+{% endif %}
+{% if page.lang == "es"  %}
+  <a href="{{ site.baseurl }}/{{ site.language.third }}/layout1/" class="container-img-lyt img-lyt img-layout1 img-layout1-es">
+{% endif %}
+  </a>
+</div>
+<!-- Cool Layout -->
+<div class="container-flex">
+{% if page.lang == "pt" %}
+  <a  href="{{ site.baseurl }}/layout2/" class="container-img-lyt img-lyt img-layout2 img-layout2-pt">
+{% endif %}
+{% if  page.lang == "en"  %}
+  <a href="{{ site.baseurl }}/{{ site.language.second }}/layout2/" class="container-img-lyt img-layout2 img-lyt img-layout2-en">
+{% endif %}
+{% if  page.lang == "es"  %}
+  <a href="{{ site.baseurl }}/{{ site.language.third }}/layout2/" class="container-img-lyt img-layout2 img-lyt img-layout2-es">
+{% endif %}
+  </a>
+</div>

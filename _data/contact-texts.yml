@@ -1,0 +1,32 @@
+# Portuguese:
+# ----------------------
+pt:
+-
+  name: nome
+  email: e-mail
+  message: mensagem
+  send: enviar
+  reply-massage: Assim que for possível, o anomalias responderá à sua mensagem.
+  reply-date: A sua mensagem foi enviada hoje
+
+# English:
+# ----------------------
+en:
+-
+  name: name
+  email: e-mail
+  message: message
+  send: send
+  reply-massage: As soon as possible, anomalias will reply to your message.
+  reply-date: Your message was sent today
+
+# Spanish:
+# ----------------------
+es:
+-
+  name: nombre
+  email: e-mail
+  message: mensaje
+  send: enviar
+  reply-massage: Tan pronto como sea posible, las anomalías responder a su mensaje.
+  reply-date: Su mensaje se ha enviado hoy

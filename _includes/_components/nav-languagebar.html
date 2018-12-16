@@ -1,0 +1,26 @@
+<!-- Language Navigation Bar -->
+<div class="language-bar d-flex flex-column justify-content-center align-items-center">
+  <ul class="lang-name">
+    <!-- Portuguese (first language) -->
+    <li {%  if page.lang == "pt" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item" {% endif %}>
+      <a  onclick="hidePgLanguage()" href="{{ site.baseurl }}/layout1" class="lang-name-link">
+        {% if page.lang == "pt" %} {{ site.language.first-name }}<span class="sr-only">({{ site.language.first-name }} is current)</span>  {% else %}
+        {{ site.language.first-name }}{% endif %}
+      </a>
+    </li>
+    <!-- English (second language) -->
+    <li {% if page.lang == "en" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item" {% endif %}>
+      <a onclick="hidePgLanguage()" href="{{ site.baseurl }}/{{ site.language.second }}/layout1/"  class="lang-name-link">
+        {% if page.lang == "en" %} {{ site.language.second-name }}<span class="sr-only">({{ site.language.second-name }} is current)</span>  {% else %}
+        {{ site.language.second-name }}  {% endif %}
+      </a>
+    </li>
+    <!-- Spanish (third language) -->
+    <li {% if page.lang == "es" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item" {% endif %}>
+      <a  onclick="hidePgLanguage()" href="{{ site.baseurl }}/{{ site.language.third }}/layout1"  class="lang-name-link">
+        {% if page.lang == "es" %} {{ site.language.third-name }}<span class="sr-only">({{ site.language.third-name }} is current)</span>  {% else %}
+        {{ site.language.third-name }}  {% endif %}
+      </a>
+    </li>
+  </ul>
+</div> <!-- End of Language Navigation Bar -->

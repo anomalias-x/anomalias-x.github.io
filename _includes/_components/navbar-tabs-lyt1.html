@@ -1,0 +1,29 @@
+{% assign navbar-texts = site.data.nav-navbar-lyt1[page.lang] | first %}
+  <!-- Home Page Navtab -->
+  <li {% if page.permalink == navbar-texts.home.path %} class="nav-item active home" {% else %} class="nav-item"{% endif %}>
+    <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.home.path }}">
+      {% if page.permalink == navbar-texts.home.path %} {{ navbar-texts.home.name }}<span class="sr-only">(current page)</span>  {% else %}
+      {{ navbar-texts.home.name }} {% endif %}
+    </a>
+  </li>
+   <!-- About Page Navtab -->
+   <li {% if page.permalink == navbar-texts.page2.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+     <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page2.path }}">
+       {% if page.permalink == navbar-texts.page2.path %} {{ navbar-texts.page2.name }}<span class="sr-only">(current page)</span>  {% else %}
+       {{ navbar-texts.page2.name }} {% endif %}
+     </a>
+   </li>
+   <!-- Works Page Navtab -->
+   <li {% if page.permalink == navbar-texts.page3.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+     <a onclick="closeDetailsRightMenu()" class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page3.path }}">
+       {% if page.permalink == navbar-texts.page3.path %} {{ navbar-texts.page3.name }}<span class="sr-only">(current page)</span>  {% else %}
+       {{ navbar-texts.page3.name }} {% endif %}
+     </a>
+   </li>
+   <!-- Contact Page Navtab -->
+   <li {% if page.permalink == navbar-texts.page4.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+     <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page4.path }}">
+       {% if page.permalink == navbar-texts.page4.path %} {{ navbar-texts.page4.name }}<span class="sr-only">(current page)</span>  {% else %}
+       {{ navbar-texts.page4.name }} {% endif %}
+     </a>
+   </li>

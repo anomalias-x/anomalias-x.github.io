@@ -1,0 +1,171 @@
+{% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+<!-- first "page view"of the home page -->
+<div class="full-screen d-flex flex-column justify-content-between align-items-center">
+  <!-- Welcoming greattings image -->
+  <div class="welcome-img-container d-flex flex-column  justify-content-center">
+    {% if page.lang == "pt" %}
+    <div  class="img-fluid welcome-img welcome-img-pt">
+      <h1 class="sr-only">website do anomalias</h1>
+    </div>
+    {% endif %}
+    {% if  page.lang == "en"  %}
+    <div  class="welcome-img welcome-img-en">
+      <h1 class="sr-only">anomalias x website</h1>
+    </div>
+    {% endif %}
+    {% if  page.lang == "es"  %}
+    <div  class="welcome-img welcome-img-es">
+      <h1 class="sr-only">sitio do anomalias x</h1>
+    </div>
+    {% endif %}
+  </div>
+  <!-- Explore  -->
+  <div class="explore-container">
+    <span class="grey-rgba  line-spacing-single">{{ homepg-texts.greetings.explore }}</span>
+    <!-- Arrow down  -->
+    <a href="#myWorks" class="arrow pink font-light d-block font-size-30pt line-spacing-single" title="arrow-down">
+      &#8671;
+    </a>
+  </div>
+</div>
+<div id="myWorks">
+  <!-- Connector  -->
+  <div  class="connector-img grey-connector-img">
+    <span class="sr-only">grey connector</span>
+  </div>
+  <!-- Works  -->
+  {% assign works = site.works %}
+  <div class="years">
+    <!-- Year 2018  -->
+    <details  id="year2018" class="year-details">
+      <summary class="year-text year-rotation-odd">2018</summary>
+      <ul class="year-imgs">
+        {% for work in works %}
+          {% if work.year == 2018 and work.lang == page.lang %}
+          <li class="works-imgs">
+            <a href="{{ site.baseurl }}{{ work.id}}" class="works-imgs-link">
+              <div class="proj-img proj{{ work.number }}-img-{{ work.year}}">
+                <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
+              </div>
+              <span class="work-text">{{ work.name }}</span>
+              {% for category in work.categories %}
+                <span class="work-categories">{{ category }}</span>
+                {% if forloop.last == false %}
+                /
+                {% endif %}
+              {% endfor %}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- Close arrow up -->
+      <div class="close-arrow-up">
+        <a onclick="closeDetails2018()" href="#year2018" class="close-details">
+          <span class="arrow font-light d-block line-spacing-single">&#8670;</span>
+          <span class="font-bold m-0">{{ homepg-texts.close | upcase }}</span>
+        </a>
+      </div>
+    </details>
+    <!-- Year 2017  -->
+    <details  id="year2017" class="year-details">
+      <summary class="year-text year-rotation-even">2017</summary>
+      <ul class="year-imgs">
+        {% for work in works %}
+          {% if work.year == 2017 and work.lang == page.lang %}
+          <li class="works-imgs">
+            <a href="{{ site.baseurl }}{{ work.id}}" class="works-imgs-link">
+              <div class="proj-img proj{{ work.number }}-img-{{ work.year}}">
+                <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
+              </div>
+              <span class="work-text">{{ work.name }}</span>
+              {% for category in work.categories %}
+                <span class="work-categories">{{ category }}</span>
+                {% if forloop.last == false %}
+                /
+                {% endif %}
+              {% endfor %}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- Close arrow up -->
+      <div class="close-arrow-up">
+        <a onclick="closeDetails2017()" href="#year2017" class="close-details">
+          <span class="arrow font-light d-block line-spacing-single">&#8670;</span>
+          <span class="font-bold m-0">{{ homepg-texts.close | upcase }}</span>
+        </a>
+      </div>
+    </details>
+    <!-- Year 2016  -->
+    <details id="year2016" class="year-details">
+      <summary class="year-text year-rotation-odd">2016</summary>
+      <ul class="year-imgs">
+        {% for work in works %}
+          {% if work.year == 2016 and work.lang == page.lang %}
+          <li class="works-imgs">
+            <a href="{{ site.baseurl }}{{ work.id}}" class="works-imgs-link">
+              <div class="proj-img proj{{ work.number }}-img-{{ work.year}}">
+                <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
+              </div>
+              <span class="work-text">{{ work.name }}</span>
+              {% for category in work.categories %}
+                <span class="work-categories">{{ category }}</span>
+                {% if forloop.last == false %}
+                /
+                {% endif %}
+              {% endfor %}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- Close arrow up -->
+      <div class="close-arrow-up">
+        <a onclick="closeDetails2016()" href="#year2016" class="close-details">
+          <span class="arrow font-light d-block line-spacing-single">&#8670;</span>
+          <span class="font-bold m-0">{{ homepg-texts.close | upcase }}</span>
+        </a>
+      </div>
+    </details>
+    <!-- Year 2015  -->
+    <details id="year2015" class="year-details">
+      <summary class="year-text year-rotation-even">2015</summary>
+      <ul class="year-imgs">
+        {% for work in works %}
+          {% if work.year == 2015 and work.lang == page.lang %}
+          <li class="works-imgs">
+            <a href="{{ site.baseurl }}{{ work.id}}" class="works-imgs-link">
+              <div class="proj-img proj{{ work.number }}-img-{{ work.year}}">
+                <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
+              </div>
+              <span class="work-text">{{ work.name }}</span>
+              {% for category in work.categories %}
+                <span class="work-categories">{{ category }}</span>
+                {% if forloop.last == false %}
+                /
+                {% endif %}
+              {% endfor %}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- Close arrow up -->
+      <div class="close-arrow-up">
+        <a onclick="closeDetails2015()" href="#year2015" class="close-details">
+          <span class="arrow font-light d-block line-spacing-single">&#8670;</span>
+          <span class="font-bold m-0">{{ homepg-texts.close | upcase }}</span>
+        </a>
+      </div>
+    </details>
+  </div>
+
+  <!-- Connector  -->
+  <div  class="connector-img grey-big-connector-img">
+    <span class="sr-only">grey connector</span>
+  </div>
+</div>
+<!-- Back to Top -->
+{% include _components/arrow-up-back-top.html %}

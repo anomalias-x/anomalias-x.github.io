@@ -1,0 +1,19 @@
+<div class="container-flex d-flex flex-column justify-content-between align-items-center">
+  <div class="contact-pg">
+    <span class="sr-only">image of a bird delivering a paper</span>
+  </div>
+  <p class="contact-pg-text">{{ page.subtitle }}</p>
+  {% include _components/contact-form.html %}
+  <!-- Connector  -->
+  <div  class="container-flex connector-img grey-connector-img">
+    <span class="sr-only">grey connector</span>
+  </div>
+  <!-- Social Medias Icons  -->
+  <div class="social-media">
+    {% include _components/social-media-icons.html %}
+  </div>
+
+  {% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+  <!-- Go back -->
+  {% include _components/arrow-left-go-back.html %}
+</div>

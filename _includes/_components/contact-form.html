@@ -1,0 +1,47 @@
+<!-- Contact Form-->
+{% assign contact-texts = site.data.contact-texts[page.lang] | first %}
+<form class="contact-form" action="https://formspree.io/{{ site.contact-data.email}}"
+      method="POST">
+    <input name="name" type="text" class="form-control col-12" id="nameInput" placeholder="{{ contact-texts.name }}" required="true">
+    <input name="_replyto" type="email" class="form-control col-12" id="InputEmail" aria-describedby="emailHelp" placeholder="{{ contact-texts.email }}" required="true">
+    <textarea name="{{ contact-texts.message }}" class="form-control col-12" id="textArea" rows="3" placeholder="mensagem" required="true"></textarea>
+    <button type="submit" value="Send" class="send-contact">
+      <span class="send-contact-text font-medium font-size-12pt">{{ contact-texts.send }}</span>
+      <span class="arrow font-light d-block font-size-30pt">
+        &#8670;</span>
+    </button>
+
+{% if page.lang == "pt" %}
+  <!-- formspree.io reCaptcha em Portugues -->
+  <input type="hidden" name="_language" value="pt" />
+  <!-- email subject -->
+  <input type="hidden" name="_subject" value="{{ site.contact-data.email-subject}}" />
+  <!-- Pagina mensagem enviada com sucesso -->
+  <input type="hidden" name="_next" value="{{ site.baseurl }}/contactos/enviado-com-sucesso/" />
+  <!-- gotcha to avoid spam by fooling scrapers -->
+  <input type="text" name="_gotcha" style="display:none" />
+{% endif %}
+
+{% if page.lang == "en" %}
+  <!-- formspree.io reCaptcha em Portugues -->
+  <input type="hidden" name="_language" value="en" />
+  <!-- email subject -->
+  <input type="hidden" name="_subject" value="{{ site.contact-data.email-subject}}" />
+  <!-- Pagina mensagem enviada com sucesso -->
+  <input type="hidden" name="_next" value="{{ site.baseurl }}/en/contact/submitted-with-success/" />
+  <!-- gotcha to avoid spam by fooling scrapers -->
+  <input type="text" name="_gotcha" style="display:none" />
+{% endif %}
+
+{% if page.lang == "es" %}
+  <!-- formspree.io reCaptcha em Portugues -->
+  <input type="hidden" name="_language" value="es" />
+  <!-- email subject -->
+  <input type="hidden" name="_subject" value="{{ site.contact-data.email-subject}}" />
+  <!-- Pagina mensagem enviada com sucesso -->
+  <input type="hidden" name="_next" value="{{ site.baseurl }}/es/contactar/enviado-con-exito/" />
+  <!-- gotcha to avoid spam by fooling scrapers -->
+  <input type="text" name="_gotcha" style="display:none" />
+{% endif %}
+
+</form>

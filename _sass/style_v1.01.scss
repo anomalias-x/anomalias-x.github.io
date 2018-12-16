@@ -1,0 +1,80 @@
+/*
+	All rights reserved to Maria Coding
+	mariacoding.com | @mariacoding
+*/
+/*********************************/
+/*            HELPERS            */
+/*********************************/
+
+/* Sass Variables
+---------------------------------------------------------------- */
+@import "_helpers/fonts-variables";
+@import "_helpers/colors-variables";
+@import "_helpers/mixins-variables";
+@import "_helpers/base-style-variables";
+
+/* End of Sass Variables
+---------------------------------------------------------------- */
+
+/*********************************/
+/*            BASE            */
+/*********************************/
+
+/* Typography
+---------------------------------------------------------------- */
+@import "_base/main-typography";
+/* End of Typography
+---------------------------------------------------------------- */
+
+/* Style crossing all pages
+---------------------------------------------------------------- */
+@import "_base/cross-all-pages-base";
+@import "_base/text-and-bg-colors-pattern";
+
+/* End of Style crossing all pages
+---------------------------------------------------------------- */
+
+
+/*********************************/
+/*         COMPONENTS            */
+/*********************************/
+
+/* Navigation
+---------------------------------------------------------------- */
+@import "_components/navigation";
+/* End of Navigation
+---------------------------------------------------------------- */
+
+/* Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------------- */
+@import "_components/media-objects";
+@import "_components/buttons-labels-forms";
+/*----------------------*/
+
+/* End of Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------------- */
+
+
+/*********************************/
+/*         PAGES           */
+/*********************************/
+
+/* Media Queries
+---------------------------------------------------------------- */
+@import "_pages/home-pg";
+@import "_pages/work-articles";
+@import "_pages/about-pg";
+/* End of Pages
+---------------------------------------------------------------- */
+
+
+
+/*********************************/
+/*         LAYOUT           */
+/*********************************/
+
+/* Media Queries
+---------------------------------------------------------------- */
+@import "_layout/media-queries";
+/* End of Media Queries
+---------------------------------------------------------------- */

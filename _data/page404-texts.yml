@@ -1,0 +1,38 @@
+# Page 404 in Portuguese:
+# ----------------------
+pt:
+-
+  lead-text: território não encontrado
+  text: O anomalias agradece a sua compreensão e está a trabalhar para melhorar a sua experiência.
+  note: Verifique se digitou bem o endereço ou se está a usar um link desatualizado...
+  hometextpart1: ou experimente ir para a página de
+  hometextpart2: HOME
+  hometextpart3: .
+  emailtextpart1: Se encontrou um hiperlink quebrado, clicou e não funciona, por favor envie um
+  emailtextpart2: email #"Email Us" if it's plural
+
+  # Page 404 in English:
+# ----------------------
+en:
+-
+  leadtext: territory not found
+  text: The anomalies appreciate your understanding and are working to improve your experience.
+  note: Please, check if you typed the address correctly or if you used an outdated link.
+  hometextpart1: Try to go
+  hometextpart2: HOME
+  hometextpart3: instead
+  emailtextpart1: If you found a bronken link from another site or from our site, please
+  emailtextpart2: email me #"Email Us" if it's plural
+
+# Page 404 in Portuguese:
+# ----------------------
+es:
+-
+  lead-text: territorio no encontrado
+  text: Las anomalías agradece su comprensión y está trabajando para mejorar su experiencia.
+  note: Compruebe que ha escrito bien la dirección o si está utilizando un vínculo obsoleto.
+  hometextpart1: O, intente ir a la página de
+  hometextpart2: HOME
+  hometextpart3: .
+  emailtextpart1: Si ha encontrado un hipervínculo roto, haga clic y no funciona, por favor
+  emailtextpart2: email #"Email Us" if it's plural

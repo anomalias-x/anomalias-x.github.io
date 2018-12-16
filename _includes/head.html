@@ -1,0 +1,36 @@
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }} | {{ site.authorweb }}">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+
+  <title>{% if page.title == site.title %}{{ page.title }}{% else %}{{ site.title }}-{{ page.title }}{% endif %}</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+
+  <!-- Bootstrap 4.1.3 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/css/bootstrap-4.1.3-dist.css"> -->
+
+  <!-- Languages -->
+  <link rel="alternate" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}" hhreflang="x-default" />
+  <link rel="alternate" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/{{ site.language.second}}" hreflang="{{ site.language.second}}" />
+  <link rel="alternate" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/{{ site.language.third}}" hreflang="{{ site.language.third}}" />
+
+  <!-- Font -->
+  <link href="https://use.typekit.net/jym0clq.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/css/style_v1.01.css" rel="stylesheet">
+
+  <!--  Google Analytics Script -->
+  {% if jekyll.environment == 'production' %}
+    {% include _components/google-analytics.html %}
+  {% endif %}
+
+  <!--  Cookies banner Script -->
+  {% include _components/head-cookies-script.html %}

@@ -1,0 +1,51 @@
+# Portuguese:
+# ----------------------
+pt:
+-
+  home:
+    name: Home
+    path: /layout2/
+  page2:
+    name: Sobre
+    path: /layout2/sobre/
+  page3:
+    name: Trabalhos
+    path: /layout2/trabalhos/
+  page4:
+    name: Contactos
+    path: /layout2/contactos/
+
+# English:
+# ----------------------
+en:
+-
+  home:
+    name: Home
+    path: /en/layout2/
+  page2:
+    name: About
+    path: /en/layout2/about/
+  page3:
+    name: Works
+    path: /en/layout2/works/
+  page4:
+    name: Contact
+    path: /en/layout2/contact/
+
+
+# Spanish:
+# ----------------------
+es:
+-
+  home:
+    name: Inicio
+    path: /es/layout2/
+  page2:
+    name: Sobre
+    path: /es/layout2/sobre/
+  page3:
+    name: Trabajos
+    path: /es/layout2/trabajos/
+  page4:
+    name: Contactar
+    path: /es/layout2/contactar/

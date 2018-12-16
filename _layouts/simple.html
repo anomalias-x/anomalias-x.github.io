@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <header id="top">
+    <span class="sr-only">header</span>
+  </header>
+  <main>
+    <div class="content d-flex flex-column align-items-center">
+      {{ content }}
+    </div>
+  </main>
+  {% unless page.permalink == "/" or page.permalink == "/en/" or page.permalink == "/es/" %}
+  <footer id="bottom" class="d-flex flex-column">
+    {% include footer.html %}
+  </footer>
+  {% endunless %}
+
+  {% include _components/js.html %}
+</body>
+</html>

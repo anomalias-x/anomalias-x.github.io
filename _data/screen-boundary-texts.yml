@@ -1,0 +1,26 @@
+# Portuguese:
+# ----------------------
+pt:
+-
+  north: limite boreal do território de exploração
+  south: limite austral do território de exploração
+  west: limite ocidental do território de exploração
+  east: limite oriental do território de exploração
+
+# English:
+# ----------------------
+en:
+-
+  north: boreal boundary of the territory of exploitation
+  south: austral boundary of the territory of exploitation
+  west: occidental boundary of the territory of exploitation
+  east: oriental boundary of the territory of exploitation
+
+# Spanhish:
+# ----------------------
+es:
+-
+  north: límite boreal del territorio de explotación
+  south: límite austral del territorio de explotación
+  west: límite occidental del territorio de explotación
+  east: límite oriental del territorio de explotación

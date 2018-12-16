@@ -1,0 +1,5 @@
+<!-- Choose the type of Layout -->
+{% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+<div id="chooseLayout" class="choose-layout d-flex flex-column flex-md-row justify-content-center align-items-xs-start align-items-md-center">
+  {% include _components/choose-layout.html %}
+</div>

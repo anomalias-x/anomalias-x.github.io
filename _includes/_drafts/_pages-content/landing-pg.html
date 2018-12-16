@@ -1,0 +1,27 @@
+<!-- Choose the Language -->
+<div id="languagePg" class="choose-language">
+  <div class="choose-layout d-flex flex-column flex-md-row justify-content-center align-items-xs-start align-items-md-center">
+    <!-- Regular Layout -->
+    <div class="container-flex">
+    {% if page.lang == "pt" %}
+      <div class="container-img-lyt img-lyt img-layout1 img-layout1-pt"><span class="sr-only">imagem layout simples</span></div>
+    {% else  page.lang == "en"  %}
+      <div class="container-img-lyt img-lyt img-layout1 img-layout1-en"><span class="sr-only">regular layout image</span></div>
+    {% else  page.lang == "es"  %}
+      <div class="container-img-lyt img-lyt img-layout1 img-layout1-es"><span class="sr-only">imagem layout simples</span></div>
+    {% endif %}
+    </div>
+    <!-- Cool Layout -->
+    <div class="container-flex">
+    {% if page.lang == "pt" %}
+      <div  class="container-img-lyt img-lyt img-layout2 img-layout2-pt"><span class="sr-only">imagem layout exploratório</span></div>
+    {% else  page.lang == "en"  %}
+      <div class="container-img-lyt img-layout2 img-lyt img-layout2-en"><span class="sr-only">exploratory layout image</span></div>
+    {% else  page.lang == "es"  %}
+      <div class="container-img-lyt img-layout2 img-lyt img-layout2-es"><span class="sr-only">imagem layout exploratorio</span></div>
+    {% endif %}
+    </div>
+
+  </div>
+  {% include _components/nav-languagebar.html %}
+</div>

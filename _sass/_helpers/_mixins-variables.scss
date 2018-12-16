@@ -1,0 +1,54 @@
+/* Mixins*/
+@mixin prefixerPlus($name, $value) {
+-webkit-#{$name}: $value;
+-moz-#{$name}: $value;
+-ms-#{$name}: $value;
+-o-#{$name}: $value;
+#{$name}: $value;
+}
+
+@mixin background-size($size) {
+ -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin rotate($degree) {
+  -webkit-transform: rotate($degree);
+    -moz-transform: rotate($degree);
+      -ms-transform: rotate($degree);
+       -o-transform: rotate($degree);
+          transform: rotate($degree);
+}
+
+@mixin rotateX($degree) {
+  -webkit-transform: rotateX($degree);
+    -moz-transform: rotateX($degree);
+      -ms-transform: rotateX($degree);
+       -o-transform: rotateX($degree);
+          transform: rotateX($degree);
+}
+
+@mixin translateAndRotate($percentage, $percentage, $degree) {
+  -webkit-transform: translateX($percentage) translateY($percentage) rotate($degree);
+    -moz-transform: translateX($percentage) translateY($percentage) rotate($degree);
+      -ms-transform: translateX($percentage) translateY($percentage) rotate($degree);
+       -o-transform: translateX($percentage) translateY($percentage) rotate($degree);
+          transform:  translateX($percentage) translateY($percentage) rotate($degree);
+}
+
+@mixin translateY($percentage) {
+  -webkit-transform: translateY($percentage);
+    -moz-transform: translateY($percentage);
+      -ms-transform: translateY($percentage);
+       -o-transform: translateY($percentage);
+          transform: translateY($percentage);
+}

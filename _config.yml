@@ -1,0 +1,185 @@
+# ------------------------------------------------------
+# CONFIGURATIONS
+
+# Head Meta Configs
+title: anomalias-x
+description: > # this means to ignore newlines until "baseurl:"
+  David Rodrigues's portfolio, graphic designer, illustrator and infographic lover.
+baseurl: ""
+url: "http://anomalias-x.com"
+port: "8005"
+relative_permalinks: false # Jekyll defaults to using absolute permalinks instead of relative permalinks
+repository: anomalia-x.github.io
+author: MariaCoding
+
+# Build settings
+safe: true # will be allowed on Github Pages
+markdown: kramdown
+highlighter: rouge
+
+#theme: anomalias-x-theme
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate
+
+exclude:
+  - README.md
+  - LICENSE
+  - serve.sh
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SASS settings
+sass:
+  sass_dir: assets
+  style: compressed
+
+
+# Settings for analytics
+analytics:
+  provider: google # Set 'provider' to the analytics provider you want to use. Set 'provider' to false to turn analytics off globally.
+  google:
+      tracking_id: 'UA-??????'
+  getclicky:
+    site_id:
+
+# ------------------------------------------------------
+# CONTACTS
+# Website Author Contacts
+authorweb: http://mariacoding.com/
+authoremail: anomalias-x@mariacoding.com
+
+#  Project Owner Contacts
+contact-data:
+  phone: +351 925 709 080
+  email: david.rodrigues@anomalias-x.com
+  email-subject: Novo contacto do website anomalias-x
+
+# Laguanges of this site #
+language:
+  first: pt # If you do any changes here, you will have to change it on the scope configurations too
+  first-name: PORTUGUÊS
+  second: en  # If you do any changes here, you will have to change it on the scope configurations too
+  second-name: ENGLISH
+  third: es  # If you do any changes here, you will have to change it on the scope configurations too
+  third-name: ESPAÑOL
+
+# ------------------------------------------------------
+# OTHER CONFIGURATIONS: Default Scope definitions
+collections:
+  works:
+    output: true
+    permalink: /works/:path/
+
+# Posts Permalinks Configs
+show_drafts: false
+future: false # doesn't show posts with future dates
+permalink: /:categories/:title/
+
+# Pages Configs
+include: ['_pages']
+relative_permalinks: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+      lang: "pt"
+      lang_baseurl: ""
+      lang_url: "http://anomalias-x.com/"
+  # Cool Layout:
+  -
+    scope:
+      path: "_pages/layout2" # an empty string here means all files in the project
+    values:
+      layout: "default-lyt2"
+      lang: "pt"
+      lang_baseurl: "/layout2"
+      lang_url: "http://anomalias-x.com/layout2"
+
+  # Override only the pages with the path "pt"
+  # -------------------------
+  # For Pages in English:
+  -
+    scope:
+      path: "_pages/en" # match with the folder name "pt"
+    values:
+      lang: "en"
+      lang_baseurl: "/en"
+      lang_url: "http://anomalias-x.com/en"
+  # Cool Layout:
+  -
+    scope:
+      path: "_pages/en/layout2" # an empty string here means all files in the project
+    values:
+      layout: "default-lyt2"
+      lang: "en"
+      lang_baseurl: "/en/layout2/"
+      lang_url: "http://anomalias-x.com/en/layout2"
+
+
+  # For Pages in Spanish:
+  -
+    scope:
+      path: "_pages/es" # match with the folder name "pt"
+    values:
+      lang: "es"
+      lang_baseurl: "/es/"
+      lang_url: "http://anomalias-x.com/es"
+  # Cool Layout:
+  -
+    scope:
+      path: "_pages/es/layout2" # an empty string here means all files in the project
+    values:
+      layout: "default-lyt2"
+      lang: "es"
+      lang_baseurl: "/es/layout2/"
+      lang_url: "http://anomalias-x.com/es/layout2"
+
+
+  # Collections pages
+  #--------------------------------------------------------
+  -
+    scope:
+      path: ""
+      type: works
+    values:
+      layout: works-pg
+
+  # Collections pages in English
+  #--------------------------------------------------------
+  -
+    scope:
+      path: "en"
+      type: works
+    values:
+      layout: works-pg
+
+  # Collections pages in Spanish
+  #--------------------------------------------------------
+  -
+    scope:
+      path: "es"
+      type: works
+    values:
+      layout: works-pg
+
+  # For all DRAFTS
+  # ---------------------------------------------------------
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values: # Write this layout on the front-matter
+      layout: "post"
+      draft: true # Will not be randerized to the folder _site

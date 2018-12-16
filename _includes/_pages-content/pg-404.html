@@ -1,0 +1,22 @@
+<!-- Page 404 -->
+	<div class="pg-404 full-screen d-flex flex-column justify-content-between align-items-center">
+		<div class="pg-404-img">
+			<span class="sr-only">404 error image</span>
+		</div>
+		<section>
+			<h2 class="pg-404-subtitle">{{ page.subtitle }}</h2>
+			{% assign page404-texts = site.data.page404-texts[page.lang] | first %}
+			<p class="pg-404-lead-text">{{ page404-texts.lead-text }}</p>
+			<p class="pg-404-text">{{ page404-texts.text }}</p>
+		</section>
+		<div class="pg-404-note">
+			<span>{{ page404-texts.note }}
+				{{ page404-texts.hometextpart1 }}
+				<a class="pg-404-note-link" href="{{ site.baseurl }}{{ site.navigation.home.path }}" alt="{{ site.navigation.home.name }}">{{ page404-texts.hometextpart2 }} </a>{{ page404-texts.hometextpart3 }}
+			</span>
+			<br>
+			<span>{{ page404-texts.emailtextpart1 }}
+				<a class="pg-404-note-link" href="mailto:{{ site.authoremail }}?Subject=Page%20400%20broken%20link" target="_top">{{ page404-texts.emailtextpart2 }}</a>.
+			</span>
+		</div>
+	</div>

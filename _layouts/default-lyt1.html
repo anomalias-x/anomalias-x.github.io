@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <header id="top">
+    {% include header.html %}
+  </header>
+
+  <main>
+    <aside class="d-none d-md-block">
+      {% include _components/aside-menu.html %}
+    </aside>
+
+    <div class="content d-flex flex-column align-items-center">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer id="bottom" class="d-flex flex-column">
+    {% include footer.html %}
+  </footer>
+
+  {% include _components/js.html %}
+</body>
+</html>

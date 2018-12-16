@@ -1,0 +1,158 @@
+<div class="about-pg">
+  <div class="full-screen">
+    <!-- About Page cover -->
+    <div class="about-pg-imgs d-flex flex-column justify-content-center align-items-center">
+      <div class="img-fluid about-img-container about-img-cover">
+        <span class="sr-only">page about's cover image</span>
+      </div>
+    </div>
+    <section class="about-text">
+      <h2 class="about-title">{{ page.subtitle }}</h2>
+      <p class="about-bio">{{ page.bio }}</p>
+      <p class="about-text">{{ page.text }}</p>
+    </section>
+    <!-- Arrow down  -->
+    <a href="#davidImg" class="arrow pink font-light d-block font-size-30pt line-spacing-single" title="arrow-down">
+      &#8671;
+    </a>
+  </div>
+  <!-- About Page Image -->
+  <div id="davidImg" class="container-flex about-pg-imgs d-flex flex-column justify-content-start align-items-center">
+    <!-- About pg 1st part of the image -->
+    {% if page.lang == "pt" %}
+    <div class="img-fluid about-img-container about-img-hdg1 about-img-hdg2 about-img-hdg1-pt">
+      <span class="sr-only">imagem de david</span>
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-pt.png" class="d-block d-md-none about-img-anchor" title="imagem da pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-pt.png" class="d-none d-md-block about-img-anchor" title="imagem da pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <div class="img-fluid about-img-container about-img-hdg1 about-img-hdg2 about-img-hdg1-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-en.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">david's image</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-en.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">david's image</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "es" %}
+    <div class="img-fluid about-img-container about-img-hdg1 about-img-hdg2 about-img-hdg1-es">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-es.png" class="d-block d-md-none about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen del que adora David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-es.png" class="d-none d-md-block about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen del que adora David</span></a>
+    </div>
+    {% endif %}
+    <!-- About pg 2nd part of the image -->
+    {% if page.lang == "pt" %}
+    <div class="img-fluid about-img-container about-img-hdg2 about-img-hdg2-pt">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-pt.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">Imagem dos diplomas de David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-pt.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">Imagem dos diplomas de David</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <div class="img-fluid about-img-container about-img-hdg2 about-img-hdg2-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-en.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">David's diplomas image</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-en.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">David's diplomas image</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "es" %}
+    <div class="img-fluid about-img-container about-img-hdg2 about-img-hdg2-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-es.png" class="d-block d-md-none about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen dels diplomas de lo David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-es.png" class="d-none d-md-block about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen dels diplomas de lo David</span></a>
+    </div>
+    {% endif %}
+    <!-- About pg 3rd part of the image -->
+    {% if page.lang == "pt" %}
+    <div class="img-fluid about-img-container about-img-hdg3 about-img-hdg2 about-img-hdg3-pt">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-pt.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">imagem do que adora David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-pt.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">imagem do que adora David</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <div class="img-fluid about-img-container about-img-hdg3 about-img-hdg2 about-img-hdg3-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-en.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">what david loves image</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-en.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">what david loves image</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "es" %}
+    <div class="img-fluid about-img-container about-img-hdg3 about-img-hdg2 about-img-hdg3-es">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-es.png" class="d-block d-md-none about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-es.png" class="d-none d-md-block about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+    </div>
+    {% endif %}
+    <!-- About pg 4th part of the image -->
+    {% if page.lang == "pt" %}
+    <div class="img-fluid about-img-container about-img-hdg4 about-img-hdg2 about-img-hdg4-pt">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-pt.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">imagem do que adora David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-pt.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">imagem do que adora David</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <div class="img-fluid about-img-container about-img-hdg4 about-img-hdg2 about-img-hdg4-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-en.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">what david loves image</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-en.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">what david loves image</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "es" %}
+    <div class="img-fluid about-img-container about-img-hdg4 about-img-hdg2 about-img-hdg4-es">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-es.png" class="d-block d-md-none about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-es.png" class="d-none d-md-block about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">que le gusta à David</span></a>
+    </div>
+    {% endif %}
+    <!-- About pg 5th part of the image -->
+    {% if page.lang == "pt" %}
+    <div class="img-fluid about-img-container about-img-hdg5 about-img-hdg2 about-img-hdg5-pt">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-pt.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">Imagem do que o David faz</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-pt.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">Imagem do que o David faz</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <div class="img-fluid about-img-container about-img-hdg5 about-img-hdg2 about-img-hdg5-en">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-en.png" class="d-block d-md-none about-img-anchor" title="about page image"><span class="sr-only">what david does image</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-en.png" class="d-none d-md-block about-img-anchor" title="about page image"><span class="sr-only">what david does image</span></a>
+    </div>
+    {% endif %}
+    {% if page.lang == "es" %}
+    <div class="img-fluid about-img-container about-img-hdg5 about-img-hdg2 about-img-hdg5-es">
+      <!-- Only mobile version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-mobi-es.png" class="d-block d-md-none about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen do que David hace</span></a>
+      <!-- Only desktop version-->
+      <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/about/img-about-desk-es.png" class="d-none d-md-block about-img-anchor" title="imagen de la pagina sobre"><span class="sr-only">imagen do que David hace</span></a>
+    </div>
+    {% endif %}
+  </div>
+
+{% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+  <!-- Connector  -->
+  <div  class="container-flex connector-img grey-big-connector-img">
+    <span class="sr-only">grey connector</span>
+  </div>
+  <!-- Back to Top -->
+  {% include _components/arrow-up-back-top.html %}
+  <!-- Go back -->
+  {% include _components/arrow-left-go-back.html %}
+</div>

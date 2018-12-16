@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <header id="top">
+    <!-- Header -->
+    <aside class="aside-top">
+      {% include  _components/aside-top.html %}
+    </aside>
+  </header>
+
+  <main>
+    <aside class="aside-left">
+      {% include  _components/aside-left.html %}
+    </aside>
+
+    <div class="content d-flex flex-column align-items-center">
+      {{ content }}
+    </div>
+
+    <aside class="aside-right">
+      {% include  _components/aside-right.html %}
+    </aside>
+
+  </main>
+
+  <footer id="bottom" class="d-flex flex-column justify-content-center">
+    <aside class="aside-bottom">
+      {% include  _components/aside-bottom.html %}
+    </aside>
+  </footer>
+
+  {% include _components/js.html %}
+</body>
+</html>

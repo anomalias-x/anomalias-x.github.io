@@ -1,0 +1,58 @@
+/* each page of eah individual work*/
+.project-article {
+  margin-top: 3em;
+  max-width: 100%;
+  .project-year {
+    color: $yellow-rgba;
+    font-weight: bold;
+    font-size: $font-size-base * 0.8;
+    @include rotate(-90deg);
+  }
+  .project-description {
+    color: $pink-rgba;
+    font-weight: bold;
+    font-size: $font-size-base * 0.8;
+    margin: 0;
+    padding: 0;
+  }
+  .project-type {
+    color: $pink-rgba;
+    font-size: $font-size-base * 0.7;
+    line-height: 1;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  .project-title{
+    margin: 0 auto;
+    color: $blue;
+    font-size: $font-size-base * 1.6;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-hyphens: none;
+   -moz-hyphens: none;
+    hyphens: none;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+    width: 75%;
+  }
+  .project-content {
+    margin: 0 auto;
+    padding-bottom: 0.2em;
+    color: $grey;
+    font-weight: 400;
+    font-size: $font-size-base * 0.8;
+    line-height: 1.35;
+    width: 75%;
+
+    .foot-note {
+      color: $grey-rgba;
+      font-style: italic;
+      font-size: $font-size-base * 0.9;
+    }
+  }
+  .thanks-text {
+    color: $grey;
+    line-height: 1;
+  }
+}

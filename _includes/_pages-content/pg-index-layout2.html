@@ -1,0 +1,18 @@
+{% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+{% assign navbar-texts = site.data.nav-navbar[page.lang] | first %}
+<!-- Landing session of the home page -->
+<div id="greetings-session" class="landing-session">
+  <!-- Welcoming greattings and Logo -->
+  <div class="container-flex">
+    <p class="blue font-medium font-size-22pt line-spacing-single m-0">{{ homepg-texts.greetings.welcome }}</p>
+    <p class="green font-medium font-size-22pt line-spacing-single m-0">{{ homepg-texts.greetings.territory }}</p>
+    <div id="logo-cool-lyt" class="big-logo"><span class="sr-only">Logo</span></div>
+  </div>
+  <div class="container-flex">
+    <p class="pink font-medium font-size-20pt m-0">{{ homepg-texts.greetings.explore }}</p>
+    <!-- Arrow down  -->
+    <a href="#" class="arrow d-block bold font-size-35pt">
+      &#8671; <span class="sr-only">arrow-down</span>
+    </a>
+  </div>
+</div>

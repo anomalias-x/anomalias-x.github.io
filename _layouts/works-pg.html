@@ -1,0 +1,119 @@
+---
+layout: simple
+---
+<aside class="d-none d-md-block">
+  {% include _components/aside-menu.html %}
+</aside>
+
+<article class="project-article">
+  <p class="project-year">{{ page.year }}</p>
+  <p class="project-description">{{ page.description }}</p>
+  <p class="project-type">{{ page.type }}</p>
+  <h2 class="project-title">{{ page.name }}</h2>
+  <div class="project-content">
+    {{ content }}
+  </div>
+  <!-- Connector  -->
+  <div  class="connector-img pink-connector-img">
+    <span class="sr-only">pink connector</span>
+  </div>
+  <!-- Project Image  -->
+  <div class="project-images d-flex flex-column justify-content-start align-items-center">
+    <div class="img-fluid proj-img-container d-flex flex-column justify-content-start align-items-center">
+    {% assign images = page.images %}
+      {% for image in images %}
+        {% if page.lang == "pt" %}
+          <div class="proj-images proj-{{ page.year }}-{{ page.number }}-{{ image }}-pt">
+            <!-- Only mobile version-->
+            <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-mobi-pt.png" class="d-block d-md-none proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+            <!-- Only desktop version-->
+            <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-desk-pt.png" class="d-none d-md-block proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+          </div>
+        {% endif %}
+        {% if page.lang == "en" %}
+          <div class="proj-images proj-{{ page.year }}-{{ page.number }}-{{ image }}-en">
+            <!-- Only mobile version-->
+             <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-mobi-en.png"
+             class="d-block d-md-none proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+             <!-- Only desktop version-->
+             <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-desk-en.png"
+             class="d-none d-md-block proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+          </div>
+        {% endif %}
+        {% if page.lang == "es" %}
+          <div class="proj-images proj-{{ page.year }}-{{ page.number }}-{{ image }}-es">
+            <!-- Only mobile version-->
+            <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-mobi-es.png"
+            class="d-block d-md-none proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+            <!-- Only desktop version-->
+            <a href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/works/{{ page.year }}-proj{{ page.number }}-desk-es.png"
+            class="d-none d-md-block proj-anchor" title="{{ image }} image"><span class="sr-only">proj-{{ page.year }}-{{ page.number }} {{ image }} image</span></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  {% assign videos = page.videos %}
+  {% unless videos == blank %}
+    {% for video in videos %}
+      <!-- Videos -->
+      <div class="proj-video-container">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ video }}" allowfullscreen></iframe>
+        </div>
+      </div>
+    {% endfor %}
+  {% endunless %}
+
+  {% assign img_videos = page.img_videos %}
+  {% unless img_videos  == blank %}
+  <!-- Video's description image -->
+  <div class="project-images d-flex flex-column justify-content-start align-items-center">
+    <div class="img-fluid proj-img-container d-flex flex-column justify-content-start align-items-center">
+      {% for img_video in img_videos %}
+      <div
+        {% if page.lang == "pt" %}
+          class="proj-images proj-{{ page.year }}-{{ page.number }}-{{ img_video }}-pt"
+       {% endif %}
+       {% if page.lang == "en" %}
+         class="proj-{{ page.year }}-{{ page.number }}-images proj-{{ page.year }}-{{ page.number }}-{{ img_video }}-en"
+      {% endif %}
+      {% if page.lang == "es" %}
+        class="proj-{{ page.year }}-{{ page.number }}-images proj-{{ page.year }}-{{ page.number }}-{{ img_video }}-es"
+      {% endif %}>
+        <span class="sr-only">{{ img_video }} image</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endunless %}
+</article>
+
+  {% assign homepg-texts = site.data.homepg-texts[page.lang] | first %}
+  <!-- Thanks image  -->
+  <div class="container-flex">
+    {% if page.lang == "pt" %}
+    <div class="thanks-image thanks-image-pt">
+      <span class="sr-only">imagem de agredecimento</span>
+    </div>
+    {% endif %}
+    {% if  page.lang == "en"  %}
+    <div class="thanks-image thanks-image-en">
+      <span class="sr-only">thanks image</span>
+    </div>
+    {% endif %}
+    {% if  page.lang == "es"  %}
+    <div class="thanks-image thanks-image-es">
+      <span class="sr-only">imagen agradecimiento</span>
+    </div>
+    {% endif %}
+  </div>
+  <!-- Connector  -->
+  <div  class="connector-img grey-big-connector-img">
+    <span class="sr-only">grey connector</span>
+  </div>
+  <!-- Back to Top -->
+  {% include _components/arrow-up-back-top.html %}
+  <!-- Go back -->
+  {% include _components/arrow-left-go-back.html %}

@@ -1,0 +1,896 @@
+$welcome-img-width-xs: 481px;
+$welcome-img-width-sm: 677px;
+$welcome-img-width-md: 405px;
+$welcome-img-width-lg: 430px;
+$welcome-img-width-xl: 506px;
+$welcome-img-width-xxl: 659px;
+/* Media Objects classes */
+.logo {
+  background-image: url('../images/xs/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  width: 48px;
+  height: 41px;
+}
+
+.choose-language {
+  position: absolute;
+  top: 0;
+  background-image: url('../images/xs/bg-img-languages.png');
+  background-repeat: repeat-y !important;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  height: 100%;
+  z-index: 0;
+
+  .choose-layout {
+    .img-lyt {
+      opacity: 0.2 !important;
+      z-index: 1;
+    }
+  }
+}
+
+.choose-layout {
+  .container-img-lyt  {
+    width:100%;
+    height: 100%;
+    height: 100vh;
+    text-decoration: none;
+    display: block;
+  }
+  .img-lyt {
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 233px;
+    max-height: 306px;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+  }
+  .img-layout1 {
+    margin: 0 auto;
+  }
+  .img-layout1-pt {
+    background-image: url('../images/xs/img-choose-vs-regular-pt.png');
+  }
+  .img-layout1-en {
+    background-image: url('../images/xs/img-choose-vs-regular-en.png');
+  }
+  .img-layout1-es {
+    background-image: url('../images/xs/img-choose-vs-regular-es.png');
+  }
+  .img-layout2 {
+    margin: 0 auto;
+  }
+  .img-layout2-pt {
+    background-image: url('../images/xs/img-choose-vs-cool-pt.png');
+  }
+  .img-layout2-en {
+    background-image: url('../images/xs/img-choose-vs-cool-en.png');
+  }
+  .img-layout2-es {
+    background-image: url('../images/xs/img-choose-vs-cool-es.png');
+  }
+}
+
+.welcome-img-container {
+  width: 100%;
+  height: 75%;
+  .welcome-img {
+    margin: 0 auto;
+    margin-top: -2em; // navbar measure
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: $welcome-img-width-xs * 0.9;
+    max-height: 418px * 0.9;
+    width: 90%;
+    height: 90%;
+  }
+
+  .welcome-img-pt {
+    background-image: url('../images/xs/homepg-welcome-img-pt.png');
+
+  }
+  .welcome-img-en {
+    background-image: url('../images/xs/homepg-welcome-img-en.png');
+  }
+  .welcome-img-es {
+    background-image: url('../images/xs/homepg-welcome-img-es.png');
+  }
+
+}
+
+.connector-img {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 42px;
+}
+.pink-connector-img {
+  background-image: url('../images/xs/connector-img-pink.png');
+  height: 117px;
+}
+
+.grey-connector-img {
+  background-image: url('../images/xs/connector-img-grey.png');
+  height: 117px;
+}
+
+.grey-big-connector-img {
+  margin-top: 2em;
+  background-image: url('../images/xs/connector-img-grey-big.png');
+  height: 215px;
+}
+
+/* Works */
+.years {
+  .year-details {
+    .year-imgs {
+      display: block;
+      list-style-type: none;
+      .works-imgs{
+        //.work-text style is on _main-typography
+        .proj-img {
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          width: 184px;
+          height: 184px;
+          margin: 0 auto;
+          margin-top: 4em;
+          margin-bottom: 0.5em;
+          text-decoration: none;
+          display: block;
+        }
+        /* work's images 2015 */
+        .proj01-img-2015 {
+          background-image: url('../images/works/xs/2015-proj01-thumb.png');
+        }
+        .proj01-img-2015:hover {
+          background-image: url('../images/works/xs/2015-proj01-thumb-hover.png');
+        }
+
+        .proj02-img-2015 {
+          background-image: url('../images/works/xs/2015-proj02-thumb.png');
+        }
+        .proj02-img-2015:hover {
+          background-image: url('../images/works/xs/2015-proj02-thumb-hover.png');
+        }
+
+        .proj03-img-2015 {
+          background-image: url('../images/works/xs/2015-proj03-thumb.png');
+        }
+        .proj03-img-2015:hover {
+          background-image: url('../images/works/xs/2015-proj03-thumb-hover.png');
+        }
+
+        /* work's images 2016 */
+        .proj01-img-2016 {
+          background-image: url('../images/works/xs/2016-proj01-thumb.png');
+        }
+        .proj01-img-2016:hover {
+          background-image: url('../images/works/xs/2016-proj01-thumb-hover.png');
+        }
+
+        .proj02-img-2016 {
+          background-image: url('../images/works/xs/2016-proj02-thumb.png');
+        }
+        .proj02-img-2016:hover {
+          background-image: url('../images/works/xs/2016-proj02-thumb-hover.png');
+        }
+
+        .proj03-img-2016 {
+          background-image: url('../images/works/xs/2016-proj03-thumb.png');
+        }
+        .proj03-img-2016:hover {
+          background-image: url('../images/works/xs/2016-proj03-thumb-hover.png');
+        }
+        /* work's images 2017 */
+        .proj01-img-2017 {
+          background-image: url('../images/works/xs/2017-proj01-thumb.png');
+        }
+        .proj01-img-2017:hover {
+          background-image: url('../images/works/xs/2017-proj01-thumb-hover.png');
+        }
+
+        .proj02-img-2017 {
+          background-image: url('../images/works/xs/2017-proj02-thumb.png');
+        }
+        .proj02-img-2017:hover {
+          background-image: url('../images/works/xs/2017-proj02-thumb-hover.png');
+        }
+
+        .proj03-img-2017 {
+          background-image: url('../images/works/xs/2017-proj03-thumb.png');
+        }
+        .proj03-img-2017:hover {
+          background-image: url('../images/works/xs/2017-proj03-thumb-hover.png');
+        }
+
+        .proj04-img-2017 {
+          background-image: url('../images/works/xs/2017-proj04-thumb.png');
+        }
+        .proj04-img-2017:hover {
+          background-image: url('../images/works/xs/2017-proj04-thumb-hover.png');
+        }
+
+        /* work's images 2018 */
+        .proj01-img-2018 {
+          background-image: url('../images/works/xs/2018-proj01-thumb.png');
+        }
+        .proj01-img-2018:hover {
+          background-image: url('../images/works/xs/2018-proj01-thumb-hover.png');
+        }
+
+        .proj02-img-2018 {
+          background-image: url('../images/works/xs/2018-proj02-thumb.png');
+        }
+        .proj02-img-2018:hover {
+          background-image: url('../images/works/xs/2018-proj02-thumb-hover.png');
+        }
+      }
+    }
+    .close-arrow-up {
+      padding-top: 2em;
+    }
+  }
+}
+.footer-img {
+    background-image: url('../images/xs/footer-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: $body-max-width-xs - 1px;
+    max-width: 100%;
+    height: 11px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+/* Cool Layout*/
+.big-logo {
+  background-image: url('../images/xs/big-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+}
+
+.home-pg-img2-layout2 {
+  background-image: url('../images/xs/layout2-homePgImg2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* ------------------------------------- */
+/* ABOUT PAGE */
+.about-pg {
+  .about-pg-imgs {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    .about-img-container {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin: 0 auto;
+      width: $proj-img-width-xs; //= to about pages
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      .about-img-anchor {
+        width: inherit;
+        height: inherit;
+      }
+    }
+    .about-img-cover {
+        background-image:  url('../images/about/xs/img-about-cover.png');
+        height: $proj-img-width-sm * 0.32;
+    }
+    .about-img-hdg1 {
+        background-image:  url('../images/about/xs/img-about-hdg1.png');
+        height: $proj-img-width-xs * 3.14;
+    }
+    .about-img-hdg1-pt {
+        background-image:  url('../images/about/xs/img-about-hdg1-pt.png');
+    }
+    .about-img-hdg1-en {
+        background-image:  url('../images/about/xs/img-about-hdg1-en.png');
+    }
+    .about-img-hdg1-es {
+        background-image:  url('../images/about/xs/img-about-hdg1-es.png');
+    }
+    .about-img-hdg2 {
+        height: $proj-img-width-xs * 3.137;
+    }
+    .about-img-hdg2-pt {
+        background-image:  url('../images/about/xs/img-about-hdg2-pt.png');
+    }
+    .about-img-hdg2-en {
+        background-image:  url('../images/about/xs/img-about-hdg2-en.png');
+    }
+    .about-img-hdg2-es {
+        background-image:  url('../images/about/xs/img-about-hdg2-es.png');
+    }
+    .about-img-hdg3 {
+        height: $proj-img-width-xs * 2.88;
+    }
+    .about-img-hdg3-pt {
+        background-image:  url('../images/about/xs/img-about-hdg3-pt.png');
+    }
+    .about-img-hdg3-en {
+        background-image:  url('../images/about/xs/img-about-hdg3-en.png');
+    }
+    .about-img-hdg3-es {
+        background-image:  url('../images/about/xs/img-about-hdg3-es.png');
+    }
+    .about-img-hdg4 {
+        height: $proj-img-width-xs * 3.4;
+    }
+    .about-img-hdg4-pt {
+        background-image:  url('../images/about/xs/img-about-hdg4-pt.png');
+    }
+    .about-img-hdg4-en {
+        background-image:  url('../images/about/xs/img-about-hdg4-en.png');
+    }
+    .about-img-hdg4-es {
+        background-image:  url('../images/about/xs/img-about-hdg4-es.png');
+    }
+    .about-img-hdg5 {
+        height: $proj-img-width-xs * 3.14;
+    }
+    .about-img-hdg5-pt {
+        background-image:  url('../images/about/xs/img-about-hdg5-pt.png');
+    }
+    .about-img-hdg5-en {
+        background-image:  url('../images/about/xs/img-about-hdg5-en.png');
+    }
+    .about-img-hdg5-es {
+        background-image:  url('../images/about/xs/img-about-hdg5-es.png');
+    }
+  }
+}
+
+/* ------------------------------------- */
+/* CONTACT PAGE */
+.contact-pg {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../images/contact/xs/img-contact.png');
+  max-width: 100%;
+  max-width: 100vw;
+  max-height: auto;
+  width: 455px;
+  height: 481px;
+}
+
+.contact-sent-pg {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../images/contact/xs/img-contact-sent.png');
+  max-width: 100%;
+  max-width: 100vw;
+  max-height: auto;
+  width: 455px;
+  height: 304px;
+}
+/* ------------------------------------- */
+/* 404 PAGE */
+.pg-404 {
+  margin-top: -6%;
+  .pg-404-img {
+    margin: 0 auto;
+    margin-top: 6%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../images/xs/404-error-img.png');
+    max-width: 100%;
+    max-height: 100%;
+    width: $proj-img-width-xs;
+    height: $proj-img-width-xs * 0.617;//0.652
+  }
+}
+
+/****** WORKS ******/
+/* ------------------------------------- */
+/* Individual Works pages */
+.project-article {
+  .connector-img {
+    z-index: 1000;
+  }
+  .pink-connector-img {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  .grey-big-connector-img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .project-images {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+    .proj-img-container {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+
+      .proj-images {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: $proj-img-width-xs;
+        z-index: 900;
+        .proj-anchor {
+          width: inherit;
+          height: inherit;
+        }
+      }
+      /****************2015*******************/
+      /* O labirinto da evolução */
+      /* Project 2015-01 */
+      .proj-2015-01-watermark-pt, .proj-2015-01-watermark-en,.proj-2015-01-watermark-es {
+        background-image:  url('../images/works/xs/2015-proj01-watermark.png'); height: $proj-2015-01-img-height-xs;
+        position: absolute;
+        top: 0;
+        z-index: 901 !important;
+      }
+      /* Project 2015-01 PT */
+      .proj-2015-01-cover-pt {
+        background-image:  url('../images/works/xs/2015-proj01-cover-pt.png');
+        height: $proj-2015-01-cover-img-height-xs;
+      }
+      .proj-2015-01-hdg1-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg1-pt.png');
+        height: $proj-2015-01-hdg1-img-height-xs;
+      }
+      .proj-2015-01-hdg2-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg2-pt.png');
+        height: $proj-2015-01-hdg2-img-height-xs;
+      }
+      .proj-2015-01-hdg3-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg3-pt.png');
+        height: $proj-2015-01-hdg3-img-height-xs;
+      }
+      .proj-2015-01-hdg4-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg4-pt.png');
+        height: $proj-2015-01-hdg4-img-height-xs;
+      }
+      .proj-2015-01-hdg5-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg5-pt.png');
+        height: $proj-2015-01-hdg5-img-height-xs;
+      }
+      /* Project 2015-01 EN */
+      .proj-2015-01-cover-en {
+        background-image:  url('../images/works/xs/2015-proj01-cover-en.png');
+        height: $proj-2015-01-cover-img-height-xs;
+      }
+      .proj-2015-01-hdg1-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg1-en.png');
+        height: $proj-2015-01-hdg1-img-height-xs;
+      }
+      .proj-2015-01-hdg2-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg2-en.png');
+        height: $proj-2015-01-hdg2-img-height-xs;
+      }
+      .proj-2015-01-hdg3-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg3-en.png');
+        height: $proj-2015-01-hdg3-img-height-xs;
+      }
+      .proj-2015-01-hdg4-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg4-en.png');
+        height: $proj-2015-01-hdg4-img-height-xs;
+      }
+      .proj-2015-01-hdg5-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg5-en.png');
+        height: $proj-2015-01-hdg5-img-height-xs;
+      }
+      /* Project 2015-01 ES */
+      .proj-2015-01-cover-es {
+        background-image:  url('../images/works/xs/2015-proj01-cover-es.png');
+        height: $proj-2015-01-cover-img-height-xs;
+      }
+      .proj-2015-01-hdg1-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg1-es.png');
+        height: $proj-2015-01-hdg1-img-height-xs;
+      }
+      .proj-2015-01-hdg2-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg2-es.png');
+        height: $proj-2015-01-hdg2-img-height-xs;
+      }
+      .proj-2015-01-hdg3-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg3-es.png');
+        height: $proj-2015-01-hdg3-img-height-xs;
+      }
+      .proj-2015-01-hdg4-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg4-es.png');
+        height: $proj-2015-01-hdg4-img-height-xs;
+      }
+      .proj-2015-01-hdg5-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg5-es.png');
+        height: $proj-2015-01-hdg5-img-height-xs;
+      }
+      /**********************/
+      /* O meu eu visual */
+      /* Project 2015-02 (all idioms have the same image) */
+      .proj-2015-02-cover-pt, .proj-2015-02-cover-en, .proj-2015-02-cover-es {
+        background-image:  url('../images/works/xs/2015-proj02-cover-pt.png');
+        height: $proj-2015-02-cover-img-height-xs;
+      }
+      .proj-2015-02-hdg1-pt, .proj-2015-02-hdg1-en, .proj-2015-02-hdg1-es {
+        background-image: url('../images/works/xs/2015-proj02-hdg1-pt.png');
+        height: $proj-2015-02-hdg1-img-height-xs;
+      }
+      .proj-2015-02-hdg2-pt, .proj-2015-02-hdg2-en, .proj-2015-02-hdg2-es {
+        background-image: url('../images/works/xs/2015-proj02-hdg2-pt.png');
+        height: $proj-2015-02-hdg2-img-height-xs;
+      }
+      /**********************/
+      /* KEPLER-452b Terra 2.0? */
+      /* Project 2015-03 (all idioms have the same image) */
+      .proj-2015-03-cover-pt, .proj-2015-03-cover-en, .proj-2015-03-cover-es {
+        background-image:  url('../images/works/xs/2015-proj03-cover-pt.png');
+        height: $proj-2015-03-cover-img-height-xs;
+      }
+      .proj-2015-03-hdg1-pt, .proj-2015-03-hdg1-en .proj-2015-03-hdg1-es {
+        background-image: url('../images/works/xs/2015-proj03-hdg1-pt.png');
+        height: $proj-2015-03-hdg1-img-height-xs;
+      }
+      /****************2016*******************/
+      /* As cidades invisíveis e os animais imaginários */
+      /* Project 2016-01 (all idioms have the same image)  */
+      .proj-2016-01-hdg1-pt, .proj-2016-01-hdg1-en, .proj-2016-01-hdg1-es {
+        background-image: url('../images/works/xs/2016-proj01-hdg1-pt.png');
+        height: $proj-2016-01-hdg1-img-height-xs;
+      }
+      .proj-2016-01-hdg2-pt, .proj-2016-01-hdg2-en, .proj-2016-01-hdg2-es {
+        background-image: url('../images/works/xs/2016-proj01-hdg2-pt.png');
+        height: $proj-2016-01-hdg2-img-height-xs;
+      }
+      .proj-2016-01-hdg3-pt, .proj-2016-01-hdg3-en, .proj-2016-01-hdg3-es {
+        background-image: url('../images/works/xs/2016-proj01-hdg3-pt.png');
+        height: $proj-2016-01-hdg3-img-height-xs;
+      }
+      .proj-2016-01-hdg4-pt, .proj-2016-01-hdg4-en, .proj-2016-01-hdg4-es {
+        background-image: url('../images/works/xs/2016-proj01-hdg4-pt.png');
+        height: $proj-2016-01-hdg4-img-height-xs;
+      }
+      .proj-2016-01-hdg5-pt, .proj-2016-01-hdg5-en, .proj-2016-01-hdg5-es {
+        background-image: url('../images/works/xs/2016-proj01-hdg5-pt.png');
+        height: $proj-2016-01-hdg5-img-height-xs;
+      }
+      .proj-2016-01-hdg6-pt, .proj-2016-01-hdg6-en, .proj-2016-01-hdg6-es  {
+        background-image: url('../images/works/xs/2016-proj01-hdg5-pt.png');
+        height: $proj-2016-01-hdg5-img-height-xs;
+      }
+      .proj-2016-01-hdg7-pt, .proj-2016-01-hdg7-en, .proj-2016-01-hdg7-es  {
+        background-image: url('../images/works/xs/2016-proj01-hdg5-pt.png');
+        height: $proj-2016-01-hdg5-img-height-xs;
+      }
+      /**********************/
+      /* ALCÂNTARA Percursos a pé  */
+      /* Project 2016-02 PT & EN*/
+      .proj-2016-02-cover-pt, .proj-2016-02-cover-en {
+        background-image:  url('../images/works/xs/2016-proj02-cover-pt.png');
+        height: $proj-2016-02-cover-img-height-xs;
+      }
+      .proj-2016-02-hdg1-pt, .proj-2016-02-hdg1-en {
+        background-image: url('../images/works/xs/2016-proj02-hdg1-pt.png');
+        height: $proj-2016-02-hdg1-img-height-xs;
+      }
+      .proj-2016-02-hdg2-pt, .proj-2016-02-hdg2-en {
+        background-image: url('../images/works/xs/2016-proj02-hdg2-pt.png');
+        height: $proj-2016-02-hdg2-img-height-xs;
+      }
+      .proj-2016-02-hdg3-pt, .proj-2016-02-hdg3-en {
+        background-image: url('../images/works/xs/2016-proj02-hdg3-pt.png');
+        height: $proj-2016-02-hdg3-img-height-xs;
+      }
+      .proj-2016-02-hdg4-pt, .proj-2016-02-hdg4-en {
+        background-image: url('../images/works/xs/2016-proj02-hdg4-pt.png');
+        height: $proj-2016-02-hdg4-img-height-xs;
+      }
+      /* Project 2016-02 ES */
+      .proj-2016-02-cover-es {
+        background-image:  url('../images/works/xs/2016-proj02-cover-es.png');
+        height: $proj-2016-02-cover-img-height-xs;
+      }
+      .proj-2016-02-hdg1-es {
+        background-image: url('../images/works/xs/2016-proj02-hdg1-es.png');
+        height: $proj-2016-02-hdg1-img-height-xs;
+      }
+      .proj-2016-02-hdg2-es {
+        background-image: url('../images/works/xs/2016-proj02-hdg2-es.png');
+        height: $proj-2016-02-hdg2-img-height-xs;
+      }
+      .proj-2016-02-hdg3-es {
+        background-image: url('../images/works/xs/2016-proj02-hdg3-es.png');
+        height: $proj-2016-02-hdg3-img-height-xs;
+      }
+      .proj-2016-02-hdg4-es {
+        background-image: url('../images/works/xs/2016-proj02-hdg4-es.png');
+        height: $proj-2016-02-hdg4-img-height-xs;
+      }
+      /**********************/
+      /*  E.T. em onze passos */
+      /* Project 2016-03 (all idioms have the same image) */
+      .proj-2016-03-cover-pt, .proj-2016-03-cover-en, .proj-2016-03-cover-es {
+        background-image:  url('../images/works/xs/2016-proj03-cover.png');
+        height: $proj-2016-03-cover-img-height-xs;
+      }
+      .proj-2016-03-hdg1-pt, .proj-2016-03-hdg1-en, .proj-2016-03-hdg1-es {
+        background-image: url('../images/works/xs/2016-proj03-hdg1.png');
+        height: $proj-2016-03-hdg1-img-height-xs;
+      }
+      .proj-2016-03-hdg2-pt, .proj-2016-03-hdg2-en, .proj-2016-03-hdg2-es {
+        background-image: url('../images/works/xs/2016-proj03-hdg2.png');
+        height: $proj-2016-03-hdg2-img-height-xs;
+      }
+      .proj-2016-03-hdg3-pt, .proj-2016-03-hdg3-en .proj-2016-03-hdg3-es {
+        background-image: url('../images/works/xs/2016-proj03-hdg3.png');
+        height: $proj-2016-03-hdg3-img-height-xs;
+      }
+      /****************2017*******************/
+      /* Uma viagem ao poder das imagens */
+      /* Project 2017-01 PT */
+      .proj-2017-01-cover-pt {
+          background-image:  url('../images/works/xs/2017-proj01-cover-pt.png');
+          height: $proj-2017-01-cover-img-height-xs;
+        }
+      .proj-2017-01-hdg1-pt {
+        background-image: url('../images/works/xs/2017-proj01-hdg1-pt.png');
+        height: $proj-2017-01-hdg1-img-height-xs;
+      }
+      .proj-2017-01-hdg2-pt {
+        background-image: url('../images/works/xs/2017-proj01-hdg2-pt.png');
+        height: $proj-2017-01-hdg2-img-height-xs;
+      }
+      .proj-2017-01-hdg3-pt {
+        background-image: url('../images/works/xs/2017-proj01-hdg3-pt.png');
+        height: $proj-2017-01-hdg3-img-height-xs;
+      }
+      .proj-2017-01-hdg4-pt {
+        background-image: url('../images/works/xs/2017-proj01-hdg4-pt.png');
+        height: $proj-2017-01-hdg4-img-height-xs;
+      }
+      /* Project 2017-01 EN */
+      .proj-2017-01-cover-en {
+          background-image:  url('../images/works/xs/2017-proj01-cover-en.png');
+          height: $proj-2017-01-cover-img-height-xs;
+        }
+      .proj-2017-01-hdg1-en {
+        background-image: url('../images/works/xs/2017-proj01-hdg1-en.png');
+        height: $proj-2017-01-hdg1-img-height-xs;
+      }
+      .proj-2017-01-hdg2-en {
+        background-image: url('../images/works/xs/2017-proj01-hdg2-en.png');
+        height: $proj-2017-01-hdg2-img-height-xs;
+      }
+      .proj-2017-01-hdg3-en {
+        background-image: url('../images/works/xs/2017-proj01-hdg3-en.png');
+        height: $proj-2017-01-hdg3-img-height-xs;
+      }
+      .proj-2017-01-hdg4-en {
+        background-image: url('../images/works/xs/2017-proj01-hdg4-en.png');
+        height: $proj-2017-01-hdg4-img-height-xs;
+      }
+      /* Project 2017-01 ES */
+      .proj-2017-01-cover-es {
+          background-image:  url('../images/works/xs/2017-proj01-cover-es.png');
+          height: $proj-2017-01-cover-img-height-xs;
+        }
+      .proj-2017-01-hdg1-es {
+        background-image: url('../images/works/xs/2017-proj01-hdg1-es.png');
+        height: $proj-2017-01-hdg1-img-height-xs;
+      }
+      .proj-2017-01-hdg2-es {
+        background-image: url('../images/works/xs/2017-proj01-hdg2-es.png');
+        height: $proj-2017-01-hdg2-img-height-xs;
+      }
+      .proj-2017-01-hdg3-es {
+        background-image: url('../images/works/xs/2017-proj01-hdg3-es.png');
+        height: $proj-2017-01-hdg3-img-height-xs;
+      }
+      .proj-2017-01-hdg4-es {
+        background-image: url('../images/works/xs/2017-proj01-hdg4-es.png');
+        height: $proj-2017-01-hdg4-img-height-xs;
+      }
+      /**********************/
+      /* Microfibras */
+      /* Project 2017-02 PT */
+      .proj-2017-02-cover-pt {
+        background-image:  url('../images/works/xs/2017-proj02-cover-pt.png');
+        height: $proj-2017-02-cover-img-height-xs;
+      }
+      .proj-2017-02-hdg1-pt {
+        background-image: url('../images/works/xs/2017-proj02-hdg1-pt.png');
+        height: $proj-2017-02-hdg1-img-height-xs;
+      }
+      .proj-2017-02-hdg2-pt {
+        background-image: url('../images/works/xs/2017-proj02-hdg2-pt.png');
+        height: $proj-2017-02-hdg2-img-height-xs;
+      }
+      /* Project 2017-02 EN */
+      .proj-2017-02-cover-en {
+        background-image:  url('../images/works/xs/2017-proj02-cover-en.png');
+        height: $proj-2017-02-cover-img-height-xs;
+      }
+      .proj-2017-02-hdg1-en {
+        background-image: url('../images/works/xs/2017-proj02-hdg1-en.png');
+        height: $proj-2017-02-hdg1-img-height-xs;
+      }
+      .proj-2017-02-hdg2-en {
+        background-image: url('../images/works/xs/2017-proj02-hdg2-en.png');
+        height: $proj-2017-02-hdg2-img-height-xs;
+      }
+      /* Project 2017-02 ES */
+      .proj-2017-02-cover-es {
+        background-image:  url('../images/works/xs/2017-proj02-cover-es.png');
+        height: $proj-2017-02-cover-img-height-xs;
+      }
+      .proj-2017-02-hdg1-es {
+        background-image: url('../images/works/xs/2017-proj02-hdg1-es.png');
+        height: $proj-2017-02-hdg1-img-height-xs;
+      }
+      .proj-2017-02-hdg2-es {
+        background-image: url('../images/works/xs/2017-proj02-hdg2-es.png');
+        height: $proj-2017-02-hdg2-img-height-xs;
+      }
+      /**********************/
+      /* Como mudar um pneu */
+      /* Project 2017-03 PT */
+      .proj-2017-03-cover-pt {
+        background-image:  url('../images/works/xs/2017-proj03-cover-pt.png');
+        height: $proj-2017-03-cover-img-height-xs;
+      }
+      .proj-2017-03-hdg1-pt {
+        background-image: url('../images/works/xs/2017-proj03-hdg1-pt.png');
+        height: $proj-2017-03-hdg1-img-height-xs;
+      }
+      .proj-2017-03-hdg2-pt {
+        background-image: url('../images/works/xs/2017-proj03-hdg2-pt.png');
+        height: $proj-2017-03-hdg2-img-height-xs;
+      }
+      .proj-2017-03-hdg3-pt {
+        background-image: url('../images/works/xs/2017-proj03-hdg3-pt.png');
+        height: $proj-2017-03-hdg3-img-height-xs;
+      }
+      /* Project 2017-03 EN */
+      .proj-2017-03-cover-en {
+        background-image:  url('../images/works/xs/2017-proj03-cover-en.png');
+        height: $proj-2017-03-cover-img-height-xs;
+      }
+      .proj-2017-03-hdg1-en {
+        background-image: url('../images/works/xs/2017-proj03-hdg1-en.png');
+        height: $proj-2017-03-hdg1-img-height-xs;
+      }
+      .proj-2017-03-hdg2-en {
+        background-image: url('../images/works/xs/2017-proj03-hdg2-pt.png');//only one image PT
+        height: $proj-2017-03-hdg2-img-height-xs;
+      }
+      .proj-2017-03-hdg3-en {
+        background-image: url('../images/works/xs/2017-proj03-hdg3-en.png');
+        height: $proj-2017-03-hdg3-img-height-xs;
+      }
+      /* Project 2017-03 ES */
+      .proj-2017-03-cover-es {
+        background-image:  url('../images/works/xs/2017-proj03-cover-es.png');
+        height: $proj-2017-03-cover-img-height-xs;
+      }
+      .proj-2017-03-hdg1-es {
+        background-image: url('../images/works/xs/2017-proj03-hdg1-es.png');
+        height: $proj-2017-03-hdg1-img-height-xs;
+      }
+      .proj-2017-03-hdg2-es {
+        background-image: url('../images/works/xs/2017-proj03-hdg2-pt.png');//only one image PT
+        height: $proj-2017-03-hdg2-img-height-xs;
+      }
+      .proj-2017-03-hdg3-es {
+        background-image: url('../images/works/xs/2017-proj03-hdg3-es.png');
+        height: $proj-2017-03-hdg3-img-height-xs;
+      }
+      /**********************/
+      /* Missão Apolo 11 */
+      /* Project 2017-04 (all idioms have the same image)  */
+      .proj-2017-04-cover-pt, .proj-2017-04-cover-en , .proj-2017-04-cover-es {
+        background-image:  url('../images/works/xs/2017-proj04-cover-pt.png');
+        height: $proj-2017-04-cover-img-height-xs;
+      }
+      .proj-2017-04-hdg1-pt, .proj-2017-04-hdg1-en, .proj-2017-04-hdg1-es {
+        background-image: url('../images/works/xs/2017-proj04-hdg1-pt.png');
+        height: $proj-2017-04-hdg1-img-height-xs;
+      }
+      /****************2018*******************/
+      /* A Queda da Via Láctea */
+      /* Project 2018-01 (all idioms have the same image) */
+      .proj-2018-01-cover-pt, .proj-2018-01-cover-en, .proj-2018-01-cover-es {
+        background-image:  url('../images/works/xs/2018-proj01-cover-pt.png');
+        height: $proj-2018-01-cover-img-height-xs;
+      }
+      .proj-2018-01-hdg1-pt, .proj-2018-01-hdg1-en, .proj-2018-01-hdg1-es {
+        background-image: url('../images/works/xs/2018-proj01-hdg1-pt.png');
+        height: $proj-2018-01-hdg1-img-height-xs;
+      }
+      /**********************/
+      /* RISK - À conquista do mundo submerso */
+      /* Project 2018-02 PT & EN  */
+      .proj-2018-02-cover-pt, .proj-2018-02-cover-en {
+        background-image:  url('../images/works/xs/2018-proj02-cover-pt-en.png');
+        height: $proj-2018-02-cover-img-height-xs;
+      }
+      .proj-2018-02-hdg1-pt, .proj-2018-02-hdg1-en {
+        background-image: url('../images/works/xs/2018-proj02-hdg1-pt-en.png');
+        height: $proj-2018-02-hdg1-img-height-xs;
+      }
+      .proj-2018-02-hdg2-pt, .proj-2018-02-hdg2-en {
+        background-image: url('../images/works/xs/2018-proj02-hdg2-pt-en.png');
+        height: $proj-2018-02-hdg2-img-height-xs;
+      }
+      .proj-2018-02-hdg3-pt, .proj-2018-02-hdg3-en {
+        background-image: url('../images/works/xs/2018-proj02-hdg3-pt-en.png');
+        height: $proj-2018-02-hdg3-img-height-xs;
+      }
+      /* Project 2018-02 ES */
+      .proj-2018-02-cover-es {
+        background-image:  url('../images/works/xs/2018-proj02-cover-pt-es.png');
+        height: $proj-2018-02-cover-img-height-xs;
+      }
+      .proj-2018-02-hdg1-es {
+        background-image: url('../images/works/xs/2018-proj02-hdg1-pt-es.png');
+        height: $proj-2018-02-hdg1-img-height-xs;
+      }
+      .proj-2018-02-hdg2-es {
+        background-image: url('../images/works/xs/2018-proj02-hdg2-pt-es.png');
+        height: $proj-2018-02-hdg2-img-height-xs;
+      }
+      .proj-2018-02-hdg3-es {
+        background-image: url('../images/works/xs/2018-proj02-hdg3-pt-es.png');
+        height: $proj-2018-02-hdg3-img-height-xs;
+      }
+    }
+  }
+  .proj-video-container {
+    margin: 0 auto;
+    width: $proj-img-width-xs;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+.thanks-image {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 172px;
+  height: 334px;
+  margin-top: 2em;
+  z-index: 999;
+}
+.thanks-image-pt {
+  background-image: url('../images/xs/thanks-img-pt.png');
+}
+.thanks-image-en {
+  background-image: url('../images/xs/thanks-img-en.png');
+}
+.thanks-image-es {
+  background-image: url('../images/xs/thanks-img-es.png');
+}

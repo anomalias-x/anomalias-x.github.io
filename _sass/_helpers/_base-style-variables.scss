@@ -1,0 +1,476 @@
+/***************************************************************/
+/* Variables of STYLES CROSS ALL PAGES------------------------ */
+$body-max-width-xs: 543px;
+$body-max-width-sm: 767px;
+$body-max-width-md: 991px;
+$body-max-width-lg: 1199px;
+$body-max-width-xl: 1499px;
+$body-max-width-xxl: 1950px;
+
+/*  Media Queries Breaking points*/
+$media-breakpoint-xs: 300px;
+$media-breakpoint-sm: 544px; //34em
+$media-breakpoint-md: 768px; //48em
+$media-breakpoint-lg: 992px; //62em
+$media-breakpoint-xl: 1200px; //75em
+$media-breakpoint-xxl: 1500px; // >93.75em
+
+/* ------------------------- */
+/* WORKS IMAGES */
+$proj-img-width-xs: 300px;
+$proj-img-width-sm: 544px;
+$proj-img-width-md: 705px;
+$proj-img-width-lg: 910px;
+$proj-img-width-xl: 1101px;
+$proj-img-width-xxl: 1376px;
+
+/* Images of project 2015-01 */
+/* XS -----*/
+$proj-2015-01-img-height-xs: 1651px;
+$proj-2015-01-cover-img-height-xs: 163px;
+$proj-2015-01-hdg1-img-height-xs: 160px;
+$proj-2015-01-hdg2-img-height-xs: 368px;
+$proj-2015-01-hdg3-img-height-xs: 189px;
+$proj-2015-01-hdg4-img-height-xs: 558px;
+$proj-2015-01-hdg5-img-height-xs: 213px;
+/* SM -----*/
+$proj-2015-01-img-height-sm: 2994px;
+$proj-2015-01-cover-img-height-sm: 296px;
+$proj-2015-01-hdg1-img-height-sm: 290px;
+$proj-2015-01-hdg2-img-height-sm: 667px;
+$proj-2015-01-hdg3-img-height-sm: 343px;
+$proj-2015-01-hdg4-img-height-sm: 1012px;
+$proj-2015-01-hdg5-img-height-sm: 386px;
+/* MD -----*/
+$proj-2015-01-img-height-md: 3881px;
+$proj-2015-01-cover-img-height-md: 383px;
+$proj-2015-01-hdg1-img-height-md: 376px;
+$proj-2015-01-hdg2-img-height-md: 865px;
+$proj-2015-01-hdg3-img-height-md: 445px;
+$proj-2015-01-hdg4-img-height-md: 1312px;
+$proj-2015-01-hdg5-img-height-md: 500px;
+/* LG -----*/
+$proj-2015-01-img-height-lg: 5006px;
+$proj-2015-01-cover-img-height-lg: 495px;
+$proj-2015-01-hdg1-img-height-lg: 481px;
+$proj-2015-01-hdg2-img-height-lg: 1117px;
+$proj-2015-01-hdg3-img-height-lg: 574px;
+$proj-2015-01-hdg4-img-height-lg: 1693px;
+$proj-2015-01-hdg5-img-height-lg: 646px;
+/* XL -----*/
+$proj-2015-01-img-height-xl: 6062px;
+$proj-2015-01-cover-img-height-xl: 599px;
+$proj-2015-01-hdg1-img-height-xl: 587px;
+$proj-2015-01-hdg2-img-height-xl: 1352px;
+$proj-2015-01-hdg3-img-height-xl: 695px;
+$proj-2015-01-hdg4-img-height-xl: 2048px;
+$proj-2015-01-hdg5-img-height-xl: 781px;
+/* XXL -----*/
+$proj-2015-01-img-height-xxl: 7575px;
+$proj-2015-01-cover-img-height-xxl: 748px;
+$proj-2015-01-hdg1-img-height-xxl: 733px;
+$proj-2015-01-hdg2-img-height-xxl: 1690px;
+$proj-2015-01-hdg3-img-height-xxl: 868px;
+$proj-2015-01-hdg4-img-height-xxl: 2560px;
+$proj-2015-01-hdg5-img-height-xxl: 976px;
+
+/* Images of project 2015-02 */
+/* XL -----*/
+$proj-2015-02-img-height-xs: 1046px;
+$proj-2015-02-cover-img-height-xs: 300px;
+$proj-2015-02-hdg1-img-height-xs: 484px;
+$proj-2015-02-hdg2-img-height-xs: 262px;
+/* SM -----*/
+$proj-2015-02-img-height-sm: 1903px;
+$proj-2015-02-cover-img-height-sm: 545px;
+$proj-2015-02-hdg1-img-height-sm: 883px;
+$proj-2015-02-hdg2-img-height-sm: 475px;
+/* MD -----*/
+$proj-2015-02-img-height-md: 2460px;
+$proj-2015-02-cover-img-height-md: 705px;
+$proj-2015-02-hdg1-img-height-md: 1145px;
+$proj-2015-02-hdg2-img-height-md: 610px;
+/* LG -----*/
+$proj-2015-02-img-height-lg: 3165px;
+$proj-2015-02-cover-img-height-lg: 907px;
+$proj-2015-02-hdg1-img-height-lg: 1473px;
+$proj-2015-02-hdg2-img-height-lg: 785px;
+/* XL -----*/
+$proj-2015-02-img-height-xl: 3827px;
+$proj-2015-02-cover-img-height-xl: 1095px;
+$proj-2015-02-hdg1-img-height-xl: 1780px;
+$proj-2015-02-hdg2-img-height-xl: 952px;
+/* XXL -----*/
+$proj-2015-02-img-height-xxl: 4791px;
+$proj-2015-02-cover-img-height-xxl: 1370px;
+$proj-2015-02-hdg1-img-height-xxl: 2229px;
+$proj-2015-02-hdg2-img-height-xxl: 1192px;
+
+/* Images of project 2015-03 */
+/* XS -----*/
+$proj-2015-03-img-height-xs: 812px;
+$proj-2015-03-cover-img-height-xs: 280px;
+$proj-2015-03-hdg1-img-height-xs: 532px;
+/* SM -----*/
+$proj-2015-03-img-height-sm: 1499px;
+$proj-2015-03-cover-img-height-sm: 518px;
+$proj-2015-03-hdg1-img-height-sm: 981px;
+/* MD -----*/
+$proj-2015-03-img-height-md: 1937px;
+$proj-2015-03-cover-img-height-md: 672px;
+$proj-2015-03-hdg1-img-height-md: 1265px;
+/* LG -----*/
+$proj-2015-03-img-height-lg: 2491px;
+$proj-2015-03-cover-img-height-lg: 863px;
+$proj-2015-03-hdg1-img-height-lg: 1628px;
+/* XL -----*/
+$proj-2015-03-img-height-xl: 3021px;
+$proj-2015-03-cover-img-height-xl: 1046px;
+$proj-2015-03-hdg1-img-height-xl: 1975px;
+/* XXL -----*/
+$proj-2015-03-img-height-xxl: 3769px;
+$proj-2015-03-cover-img-height-xxl: 1306px;
+$proj-2015-03-hdg1-img-height-xxl: 2463px;
+
+/* Images of project 2016-01 */
+/* XL -----*/
+$proj-2016-01-img-height-xs: 3379px;
+$proj-2016-01-hdg1-img-height-xs: 378px;
+$proj-2016-01-hdg2-img-height-xs: 223px;
+$proj-2016-01-hdg3-img-height-xs: 349px;
+$proj-2016-01-hdg4-img-height-xs: 513px;
+$proj-2016-01-hdg5-img-height-xs: 610px;
+$proj-2016-01-hdg6-img-height-xs: 649px;
+$proj-2016-01-hdg7-img-height-xs: 657px;
+/* SM -----*/
+$proj-2016-01-img-height-sm: 6190px;
+$proj-2016-01-hdg1-img-height-sm: 690px;
+$proj-2016-01-hdg2-img-height-sm: 404px;
+$proj-2016-01-hdg3-img-height-sm: 641px;
+$proj-2016-01-hdg4-img-height-sm: 938px;
+$proj-2016-01-hdg5-img-height-sm: 1120px;
+$proj-2016-01-hdg6-img-height-sm: 1191px;
+$proj-2016-01-hdg7-img-height-sm: 1206px;
+/* MD -----*/
+$proj-2016-01-img-height-md: 8010px;
+$proj-2016-01-hdg1-img-height-md: 890px;
+$proj-2016-01-hdg2-img-height-md: 527px;
+$proj-2016-01-hdg3-img-height-md: 830px;
+$proj-2016-01-hdg4-img-height-md: 1215px;
+$proj-2016-01-hdg5-img-height-md: 1447px;
+$proj-2016-01-hdg6-img-height-md: 1538px;
+$proj-2016-01-hdg7-img-height-md: 1563px;
+/* LG -----*/
+$proj-2016-01-img-height-lg: 10350px;
+$proj-2016-01-hdg1-img-height-lg: 1152px;
+$proj-2016-01-hdg2-img-height-lg: 679px;
+$proj-2016-01-hdg3-img-height-lg: 1071px;
+$proj-2016-01-hdg4-img-height-lg: 1569px;
+$proj-2016-01-hdg5-img-height-lg: 1872px;
+$proj-2016-01-hdg6-img-height-lg: 1987px;
+$proj-2016-01-hdg7-img-height-lg: 2020px;
+/* XL -----*/
+$proj-2016-01-img-height-xl: 12531px;
+$proj-2016-01-hdg1-img-height-xl: 1394px;
+$proj-2016-01-hdg2-img-height-xl: 822px;
+$proj-2016-01-hdg3-img-height-xl: 1299px;
+$proj-2016-01-hdg4-img-height-xl: 1899px;
+$proj-2016-01-hdg5-img-height-xl: 2267px;
+$proj-2016-01-hdg6-img-height-xl: 2405px;
+$proj-2016-01-hdg7-img-height-xl: 2445px;
+/* XXL -----*/
+$proj-2016-01-img-height-xxl: 15650px;
+$proj-2016-01-hdg1-img-height-xxl: 1740px;
+$proj-2016-01-hdg2-img-height-xxl: 1028px;
+$proj-2016-01-hdg3-img-height-xxl: 1621px;
+$proj-2016-01-hdg4-img-height-xxl: 2373px;
+$proj-2016-01-hdg5-img-height-xxl: 2829px;
+$proj-2016-01-hdg6-img-height-xxl: 3005px;
+$proj-2016-01-hdg7-img-height-xxl: 3054px;
+
+/* Images of project 2016-02 */
+/* XL -----*/
+$proj-2016-02-img-height-xs: 2990px;
+$proj-2016-02-cover-img-height-xs: 696px;
+$proj-2016-02-hdg1-img-height-xs: 406px;
+$proj-2016-02-hdg2-img-height-xs: 629px;
+$proj-2016-02-hdg3-img-height-xs: 475px;
+$proj-2016-02-hdg4-img-height-xs: 784px;
+/* SM -----*/
+$proj-2016-02-img-height-sm: 5469px;
+$proj-2016-02-cover-img-height-sm: 1283px;
+$proj-2016-02-hdg1-img-height-sm: 744px;
+$proj-2016-02-hdg2-img-height-sm: 1142px;
+$proj-2016-02-hdg3-img-height-sm: 867px;
+$proj-2016-02-hdg4-img-height-sm: 1433px;
+/* MD -----*/
+$proj-2016-02-img-height-md: 7081px;
+$proj-2016-02-cover-img-height-md: 1658px;
+$proj-2016-02-hdg1-img-height-md: 962px;
+$proj-2016-02-hdg2-img-height-md: 1480px;
+$proj-2016-02-hdg3-img-height-md: 1124px;
+$proj-2016-02-hdg4-img-height-md: 1857px;
+/* LG -----*/
+$proj-2016-02-img-height-lg: 8013px;
+$proj-2016-02-cover-img-height-lg: 2314px;
+$proj-2016-02-hdg1-img-height-lg: 1241px;
+$proj-2016-02-hdg2-img-height-lg: 1903px;
+$proj-2016-02-hdg3-img-height-lg: 1445px;
+$proj-2016-02-hdg4-img-height-lg: 1290px;
+/* XL -----*/
+$proj-2016-02-img-height-xl: 11049px;
+$proj-2016-02-cover-img-height-xl: 2587px;
+$proj-2016-02-hdg1-img-height-xl: 1501px;
+$proj-2016-02-hdg2-img-height-xl: 2308px;
+$proj-2016-02-hdg3-img-height-xl: 1755px;
+$proj-2016-02-hdg4-img-height-xl: 2898px;
+/* XXL -----*/
+$proj-2016-02-img-height-xxl: 13782px;
+$proj-2016-02-cover-img-height-xxl: 3227px;
+$proj-2016-02-hdg1-img-height-xxl: 1875px;
+$proj-2016-02-hdg2-img-height-xxl: 2879px;
+$proj-2016-02-hdg3-img-height-xxl: 2189px;
+$proj-2016-02-hdg4-img-height-xxl: 3612px;
+
+/* Images of project 2016-03 */
+/* XS -----*/
+$proj-2016-03-img-height-xs: 1481px;
+$proj-2016-03-cover-img-height-xs: 380px;
+$proj-2016-03-hdg1-img-height-xs: 487px;
+$proj-2016-03-hdg2-img-height-xs: 419px - 2px;
+$proj-2016-03-hdg3-img-height-xs: 195px;
+/* SM -----*/
+$proj-2016-03-img-height-sm: 2690px;
+$proj-2016-03-cover-img-height-sm: 698px;
+$proj-2016-03-hdg1-img-height-sm: 875px;
+$proj-2016-03-hdg2-img-height-sm: 762px - 2px;
+$proj-2016-03-hdg3-img-height-sm: 355px;
+/* MD -----*/
+$proj-2016-03-img-height-md: 3487px;
+$proj-2016-03-cover-img-height-md: 903px;
+$proj-2016-03-hdg1-img-height-md: 1134px;
+$proj-2016-03-hdg2-img-height-md: 990px - 2px;
+$proj-2016-03-hdg3-img-height-md: 460px;
+/* LG -----*/
+$proj-2016-03-img-height-lg: 3487px;
+$proj-2016-03-cover-img-height-lg: 903px;
+$proj-2016-03-hdg1-img-height-lg: 1463px;
+$proj-2016-03-hdg2-img-height-lg: 1276px - 2px;
+$proj-2016-03-hdg3-img-height-lg: 590px;
+/* XL -----*/
+$proj-2016-03-img-height-xl: 5441px;
+$proj-2016-03-cover-img-height-xl: 1410px;
+$proj-2016-03-hdg1-img-height-xl: 1770px;
+$proj-2016-03-hdg2-img-height-xl: 1545px - 2px;
+$proj-2016-03-hdg3-img-height-xl: 716px;
+/* XXL -----*/
+$proj-2016-03-img-height-xxl: 6799px;
+$proj-2016-03-cover-img-height-xxl: 1762px;
+$proj-2016-03-hdg1-img-height-xxl: 2211px;
+$proj-2016-03-hdg2-img-height-xxl: 1931px - 2px;
+$proj-2016-03-hdg3-img-height-xxl: 895px;
+
+/* Images of project 2017-01 */
+/* XS -----*/
+$proj-2017-01-img-height-xs: 3413px;
+$proj-2017-01-cover-img-height-xs: 329px;
+$proj-2017-01-hdg1-img-height-xs: 755px;
+$proj-2017-01-hdg2-img-height-xs: 870px;
+$proj-2017-01-hdg3-img-height-xs: 705px;
+$proj-2017-01-hdg4-img-height-xs: 754px;
+/* SM -----*/
+$proj-2017-01-img-height-sm: 6260px;
+$proj-2017-01-cover-img-height-sm: 603px;
+$proj-2017-01-hdg1-img-height-sm: 1390px;
+$proj-2017-01-hdg2-img-height-sm: 1589px;
+$proj-2017-01-hdg3-img-height-sm: 1299px;
+$proj-2017-01-hdg4-img-height-sm: 1379px;
+/* MD -----*/
+$proj-2017-01-img-height-md: 8092px;
+$proj-2017-01-cover-img-height-md: 780px;
+$proj-2017-01-hdg1-img-height-md: 1796px;
+$proj-2017-01-hdg2-img-height-md: 2050px;
+$proj-2017-01-hdg3-img-height-md: 1679px;
+$proj-2017-01-hdg4-img-height-md: 1787px;
+/* LG -----*/
+$proj-2017-01-img-height-lg: 10423px;
+$proj-2017-01-cover-img-height-lg: 1003px;
+$proj-2017-01-hdg1-img-height-lg: 2313px;
+$proj-2017-01-hdg2-img-height-lg: 2646px;
+$proj-2017-01-hdg3-img-height-lg: 2160px;
+$proj-2017-01-hdg4-img-height-lg: 2301px;
+/* XL -----*/
+$proj-2017-01-img-height-xl: 12611px;
+$proj-2017-01-cover-img-height-xl: 1215px;
+$proj-2017-01-hdg1-img-height-xl: 2798px;
+$proj-2017-01-hdg2-img-height-xl: 3198px;
+$proj-2017-01-hdg3-img-height-xl: 2611px;
+$proj-2017-01-hdg4-img-height-xl: 2789px;
+/* XXL -----*/
+$proj-2017-01-img-height-xxl: 15777px;
+$proj-2017-01-cover-img-height-xxl: 1520px;
+$proj-2017-01-hdg1-img-height-xxl: 3503px;
+$proj-2017-01-hdg2-img-height-xxl: 4005px;
+$proj-2017-01-hdg3-img-height-xxl: 3269px;
+$proj-2017-01-hdg4-img-height-xxl: 3480px;
+
+/* Images of project 2017-02 */
+/* XS -----*/
+$proj-2017-02-img-height-xs: 1055px;
+$proj-2017-02-cover-img-height-xs: 494px;
+$proj-2017-02-hdg1-img-height-xs: 484px;
+$proj-2017-02-hdg2-img-height-xs: 77px;
+/* SM -----*/
+$proj-2017-02-img-height-sm: 1940px;
+$proj-2017-02-cover-img-height-sm: 905px;
+$proj-2017-02-hdg1-img-height-sm: 894px;
+$proj-2017-02-hdg2-img-height-sm: 141px;
+/* MD -----*/
+$proj-2017-02-img-height-md: 2511px;
+$proj-2017-02-cover-img-height-md: 1170px;
+$proj-2017-02-hdg1-img-height-md: 1158px;
+$proj-2017-02-hdg2-img-height-md: 183px;
+/* LG -----*/
+$proj-2017-02-img-height-lg: 3233px;
+$proj-2017-02-cover-img-height-lg: 1505px;
+$proj-2017-02-hdg1-img-height-lg: 1490px;
+$proj-2017-02-hdg2-img-height-lg: 238px;
+/* XL -----*/
+$proj-2017-02-img-height-xl: 3906px;
+$proj-2017-02-cover-img-height-xl: 1821px;
+$proj-2017-02-hdg1-img-height-xl: 1800px;
+$proj-2017-02-hdg2-img-height-xl: 285px;
+/* XXL -----*/
+$proj-2017-02-img-height-xxl: 4889px;
+$proj-2017-02-cover-img-height-xxl: 2278px;
+$proj-2017-02-hdg1-img-height-xxl: 2254px;
+$proj-2017-02-hdg2-img-height-xxl: 357px;
+
+/* Images of project 2017-03 */
+/* XS -----*/
+$proj-2017-03-img-height-xs: 2805px;
+$proj-2017-03-cover-img-height-xs: 749px;
+$proj-2017-03-hdg1-img-height-xs: 532px;
+$proj-2017-03-hdg2-img-height-xs: 434px;
+$proj-2017-03-hdg3-img-height-xs: 1090px;
+/* SM -----*/
+$proj-2017-03-img-height-sm: 5088px;
+$proj-2017-03-cover-img-height-sm: 1359px;
+$proj-2017-03-hdg1-img-height-sm: 965px;
+$proj-2017-03-hdg2-img-height-sm: 787px;
+$proj-2017-03-hdg3-img-height-sm: 1977px;
+/* MD -----*/
+$proj-2017-03-img-height-md: 6593px;
+$proj-2017-03-cover-img-height-md: 1761px;
+$proj-2017-03-hdg1-img-height-md: 1250px;
+$proj-2017-03-hdg2-img-height-md: 1020px;
+$proj-2017-03-hdg3-img-height-md: 2562px;
+/* LG -----*/
+$proj-2017-03-img-height-lg: 8510px;
+$proj-2017-03-cover-img-height-lg: 2273px;
+$proj-2017-03-hdg1-img-height-lg: 1613px;
+$proj-2017-03-hdg2-img-height-lg: 1317px;
+$proj-2017-03-hdg3-img-height-lg: 3307px;
+/* XL -----*/
+$proj-2017-03-img-height-xl: 10296px;
+$proj-2017-03-cover-img-height-xl: 2750px;
+$proj-2017-03-hdg1-img-height-xl: 1952px;
+$proj-2017-03-hdg2-img-height-xl: 1593px;
+$proj-2017-03-hdg3-img-height-xl: 4001px;
+/* XXL -----*/
+$proj-2017-03-img-height-xxl: 12867px;
+$proj-2017-03-cover-img-height-xxl: 3437px;
+$proj-2017-03-hdg1-img-height-xxl: 2439px;
+$proj-2017-03-hdg2-img-height-xxl: 1991px;
+$proj-2017-03-hdg3-img-height-xxl: 5000px;
+
+/* Images of project 2017-04 */
+/* XL -----*/
+$proj-2017-04-img-height-xs:996px;
+$proj-2017-04-cover-img-height-xs: 406px;
+$proj-2017-04-hdg1-img-height-xs: 590px;
+/* SM -----*/
+$proj-2017-04-img-height-sm: 1816px;
+$proj-2017-04-cover-img-height-sm: 744px;
+$proj-2017-04-hdg1-img-height-sm: 1072px;
+/* MD -----*/
+$proj-2017-04-img-height-md: 2350px;
+$proj-2017-04-cover-img-height-md: 961px;
+$proj-2017-04-hdg1-img-height-md: 1389px;
+/* LG -----*/
+$proj-2017-04-img-height-lg: 3029px;
+$proj-2017-04-cover-img-height-lg: 1241px;
+$proj-2017-04-hdg1-img-height-lg: 1788px;
+/* XL -----*/
+$proj-2017-04-img-height-xl: 3661px;
+$proj-2017-04-cover-img-height-xl: 1500px;
+$proj-2017-04-hdg1-img-height-xl: 2161px;
+/* XXL -----*/
+$proj-2017-04-img-height-xxl: 4582px;
+$proj-2017-04-cover-img-height-xxl: 1877px;
+$proj-2017-04-hdg1-img-height-xxl: 2705px;
+
+/* Images of project 2018-01 */
+/* XS -----*/
+$proj-2018-01-img-height-xs: 1015px;
+$proj-2018-01-cover-img-height-xs: 560px;
+$proj-2018-01-hdg1-img-height-xs: 455px;
+/* SM -----*/
+$proj-2018-01-img-height-sm: 1870px;
+$proj-2018-01-cover-img-height-sm: 1035px;
+$proj-2018-01-hdg1-img-height-sm: 835px;
+/* MD -----*/
+$proj-2018-01-img-height-md: 2418px;
+$proj-2018-01-cover-img-height-md: 1335px;
+$proj-2018-01-hdg1-img-height-md: 1083px;
+/* LG -----*/
+$proj-2018-01-img-height-lg: 3111px;
+$proj-2018-01-cover-img-height-lg: 1721px;
+$proj-2018-01-hdg1-img-height-lg: 1390px;
+/* XL -----*/
+$proj-2018-01-img-height-xl: 3765px;
+$proj-2018-01-cover-img-height-xl: 2082px;
+$proj-2018-01-hdg1-img-height-xl: 1683px;
+/* XXL -----*/
+$proj-2018-01-img-height-xxl: 4712px;
+$proj-2018-01-cover-img-height-xxl: 2606px;
+$proj-2018-01-hdg1-img-height-xxl: 2106px;
+
+
+/* Images of project 2018-02 */
+/* XS -----*/
+$proj-2018-02-img-height-xs: 2427px;
+$proj-2018-02-cover-img-height-xs: 541px;
+$proj-2018-02-hdg1-img-height-xs: 909px;
+$proj-2018-02-hdg2-img-height-xs: 551px;
+$proj-2018-02-hdg3-img-height-xs: 426px;
+/* SM -----*/
+$proj-2018-02-img-height-sm: 4450px;
+$proj-2018-02-cover-img-height-sm: 997px;
+$proj-2018-02-hdg1-img-height-sm: 1675px;
+$proj-2018-02-hdg2-img-height-sm: 1002px;
+$proj-2018-02-hdg3-img-height-sm: 776px;
+/* MD -----*/
+$proj-2018-02-img-height-md: 5751px;
+$proj-2018-02-cover-img-height-md: 1286px;
+$proj-2018-02-hdg1-img-height-md: 2164px;
+$proj-2018-02-hdg2-img-height-md: 1298px;
+$proj-2018-02-hdg3-img-height-md: 1003px;
+/* LG -----*/
+$proj-2018-02-img-height-lg: 7404px;
+$proj-2018-02-cover-img-height-lg: 1656px;
+$proj-2018-02-hdg1-img-height-lg: 2785px;
+$proj-2018-02-hdg2-img-height-lg: 1672px;
+$proj-2018-02-hdg3-img-height-lg: 1291px;
+/* XL -----*/
+$proj-2018-02-img-height-xl: 8962px;
+$proj-2018-02-cover-img-height-xl: 2005px;
+$proj-2018-02-hdg1-img-height-xl: 3378px;
+$proj-2018-02-hdg2-img-height-xl: 2021px;
+$proj-2018-02-hdg3-img-height-xl: 1558px;
+/* XXL -----*/
+$proj-2018-02-img-height-xxl: 11207px;
+$proj-2018-02-cover-img-height-xxl: 2509px;
+$proj-2018-02-hdg1-img-height-xxl: 4216px;
+$proj-2018-02-hdg2-img-height-xxl: 2529px;
+$proj-2018-02-hdg3-img-height-xxl: 1953px;

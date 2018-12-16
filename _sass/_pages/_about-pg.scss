@@ -1,0 +1,33 @@
+/* each page of eah individual work*/
+.about-pg {
+  margin-top: 3em;
+  max-width: 100%;
+  .about-text {
+    margin: 0 auto;
+    max-width: 80%;
+    .about-title {
+      color: $blue;
+      font-size: $font-size-base * 1.35;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 2em;
+      margin-bottom: 1.2em;
+    }
+    .about-bio {
+      color: $grey;
+      font-size: $font-size-base * 0.78;
+      font-weight: 400;
+      margin-top: 2em;
+      margin-bottom: 1.2em;
+    }
+    .about-text {
+      color: $grey;
+      font-size: $font-size-base * 0.69;
+      font-weight: 300;
+      line-height: 1.1;
+      margin-top: 2em;
+      margin-bottom: 1.2em;
+      width: 8em;
+    }
+  }
+}

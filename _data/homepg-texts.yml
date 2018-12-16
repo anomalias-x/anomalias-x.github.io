@@ -1,0 +1,59 @@
+# Portuguese:
+# ----------------------
+pt:
+-
+  layout:
+    regular: VERSÃO SIMPLES
+    cool: VERSÃO COMPLEXA
+  greetings:
+    welcome: bem-vind@
+    territory: ao território de
+    explore: explore
+  phrase: é preciso mergulhar fundo para encontrar significado
+  glossary:
+    name: a·no·ma·li·a
+    grammar: nome /substantivo feminino
+    definition: deformidade / monstruosidade <br> irregularidade / erro
+  close: fechar
+  back-to-top: voltar
+  go-back: retroceder
+
+# English:
+# ----------------------
+en:
+-
+  layout:
+    regular: REGULAR VERSION
+    cool: COOL VERSION
+  greetings:
+    welcome: welcome
+    territory: to the territory of
+    explore: explore
+  phrase: you need to dive dip to find meaning
+  glossary:
+    name: a·no·ma·li·a
+    grammar: noun
+    definition: eformity / monstrosity <br> irregularity / error
+  close: close
+  back-to-top: back to top
+  go-back: go back
+
+# Spanish:
+# ----------------------
+es:
+-
+  layout:
+    regular: VERSION SIMPLE
+    cool: VERSION COMPLEJA
+  greetings:
+    welcome: Bienvenid@
+    territory: al território de
+    explore: explorar
+  phrase: es necesario sumergir fondo para encontrar significado
+  glossary:
+    name: a·no·ma·li·a
+    grammar: noun /substantivo feminino
+    definition: deformidad / monstruosidad <br> irregularidad / error
+  close: cerrar
+  back-to-top: volver
+  go-back: retroceder
