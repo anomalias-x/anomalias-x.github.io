@@ -47,7 +47,7 @@ sass:
 analytics:
   provider: google # Set 'provider' to the analytics provider you want to use. Set 'provider' to false to turn analytics off globally.
   google:
-      tracking_id: 'UA-??????'
+      tracking_id: 'UA-131083124-1'
   getclicky:
     site_id:
 

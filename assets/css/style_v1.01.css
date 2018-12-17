@@ -2930,11 +2930,6 @@ summary.aside-right-menu::-webkit-details-marker {
   .choose-language {
     background-image: url("../images/lg/bg-img-languages.png"); }
 
-  .logo {
-    background-image: url("../images/lg/logo.png");
-    width: 137px;
-    height: 32px; }
-
   .choose-layout .img-lyt {
     margin: 0 auto;
     max-width: 291px;
