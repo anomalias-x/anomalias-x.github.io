@@ -237,7 +237,7 @@ a.arrow:hover, a.arrow:focus {
       text-decoration: none; }
       .years .year-details .year-imgs .works-imgs .works-imgs-link .work-text {
         color: #a0a7a6;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 0.85em;
         line-height: 1.1;
         max-width: 184px !important;
@@ -247,7 +247,7 @@ a.arrow:hover, a.arrow:focus {
         color: #eccc74; }
       .years .year-details .year-imgs .works-imgs .works-imgs-link .work-categories {
         color: #2eaabe;
-        font-weight: bold;
+        font-weight: 500;
         text-transform: uppercase;
         font-size: 0.57em;
         line-height: 1.1;
@@ -679,7 +679,7 @@ main {
   margin: 0;
   margin-right: 5%; }
   .navbar-toggler .navbar-toggler-icon {
-    background-image: url("../images/svg/icons8-menu-green.svg"); }
+    background-image: url("../images/svg/icons8-menu-blue.svg"); }
 
 .navbar-toggler:focus {
   border-color: transparent;
@@ -796,6 +796,7 @@ summary.aside-right-menu::-webkit-details-marker {
       margin: 15px; }
       .right-menu-navbar .nav .nav-item .nav-link {
         color: #fff;
+        text-shadow: 1px 1px #eccc74;
         font-family: relay, sans-serif;
         font-size: 1.2em;
         font-weight: bold;
@@ -1104,6 +1105,7 @@ summary.aside-right-menu::-webkit-details-marker {
 /* CONTACT PAGE */
 .contact-pg {
   margin: 0 auto;
+  margin-top: 3em;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1646,6 +1648,9 @@ summary.aside-right-menu::-webkit-details-marker {
     color: #a0a7a6;
     font-weight: 400;
     font-size: 0.8em;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
     line-height: 1.35;
     width: 75%; }
     .project-article .project-content .foot-note {
@@ -2306,7 +2311,8 @@ summary.aside-right-menu::-webkit-details-marker {
     background-image: url("../images/md/logo-small-left.png"); }
 
   .aside-left-logo:hover, .aside-left-logo:focus {
-    background-image: url("../images/md/logo-sm-left-hover.png"); }
+    background-image: url("../images/md/logo-sm-left-hover.png");
+    margin-left: -1px; }
 
   .aside-right-menu:hover, .aside-right-menu:focus {
     background-image: url("../images/md/aside-rg-menu-hover.png"); }
@@ -3479,6 +3485,114 @@ summary.aside-right-menu::-webkit-details-marker {
 /*End of Media Queries - Large devices
 ---------------------------------------------------------------------------------------------------------- */
 /*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -RETINA Screens *************************/
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  /****** GENERAL ******/
+  body {
+    max-width: 2998px; }
+
+  .full-screen {
+    min-width: 2400px;
+    max-width: 2998px; }
+
+  /****** NAVIGATION ******/
+  .navtabs-bg {
+    background-image: url("../images/retina/xl/aside-rg-menu-bg.png");
+    width: 1499px; }
+
+  .aside-img {
+    max-width: 140px;
+    max-height: 88px; }
+
+  .aside-left-logo {
+    background-image: url("../images/retina/xl/logo-small-left.png"); }
+
+  .aside-left-logo:hover, .aside-left-logo:focus {
+    background-image: url("../images/retina/xl/logo-sm-left-hover.png"); }
+
+  .aside-right-menu {
+    background-image: url("../images/retina/xl/aside-right-menu.png"); }
+
+  .aside-right-menu:hover, .aside-right-menu:focus {
+    background-image: url("../images/retina/xl/aside-rg-menu-hover.png"); }
+
+  /****** MEDIA OBJECTS ******/
+  .choose-language {
+    background-image: url("../images/retina/xl/bg-img-languages.png"); }
+
+  .logo {
+    background-image: url("../images/retina/xl/logo.png");
+    width: 342px;
+    height: 80px; }
+
+  .choose-layout .img-lyt {
+    max-width: 728px;
+    max-height: 1000px; }
+
+  .welcome-img {
+    max-width: 1012px;
+    max-height: 870px; }
+
+  .welcome-img-pt {
+    background-image: url("../images/retina/xl/homepg-welcome-img-pt.png"); }
+
+  .welcome-img-en {
+    background-image: url("../images/retina/xl/homepg-welcome-img-en.png"); }
+
+  .welcome-img-es {
+    background-image: url("../images/retina/xl/homepg-welcome-img-es.png"); }
+
+  .connector-img {
+    width: 88px; }
+
+  .pink-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-pink.png");
+    height: 290px; }
+
+  .grey-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-grey.png");
+    height: 290px; }
+
+  .grey-big-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-grey-big.png");
+    height: 568px; }
+
+  /****** ABOUT PAGE ******/
+  /* ------------------------------------- */
+  /* About page images */
+  .about-pg .about-pg-imgs .about-img-container {
+    width: 2202px; }
+  .about-pg .about-pg-imgs .about-img-cover {
+    background-image: url("../images/about/retina/xl/img-about-cover.png");
+    height: 704.64px; }
+
+  /****** CONTACT PAGE ******/
+  /* ------------------------------------- */
+  .contact-pg {
+    background-image: url("../images/contact/retina/xl/img-contact.png");
+    width: 2202px;
+    height: 2118.324px; }
+
+  .contact-sent-pg {
+    background-image: url("../images/contact/retina/xl/img-contact-sent.png");
+    width: 2202px;
+    height: 1078.98px; }
+
+  /* ------------------------------------- */
+  .footer-img {
+    background-image: url("../images/retina/xl/footer-img.png");
+    width: 2996px;
+    height: 30px; }
+
+  /* ------------------------------------- */
+  /* 404 PAGE */
+  .pg-404 .pg-404-img {
+    background-image: url("../images/retina/xl/404-error-img.png");
+    width: 2202px;
+    height: 550.5px; } }
+/*End of Media Queries - Extra large devices - RETINA Screens
+---------------------------------------------------------------------------------------------------------- */
+/*************************************************************************************************************/
 /*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -Non-Retina Screens *********************/
 @media (min-width: 1200px) {
   /****** GENERAL ******/
@@ -4042,7 +4156,112 @@ summary.aside-right-menu::-webkit-details-marker {
 /*End of Media Queries - Extra large devices -Non-Retina Screens
 ---------------------------------------------------------------- */
 /*************************************************************************************************************/
-/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -RETINA Screens *************************/
+/*  Extra large devices (Extra large desktops ≥1500px) -RETINA Screens *************************/
+@media (min-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  /****** GENERAL ******/
+  body {
+    max-width: 3900px; }
+
+  .full-screen {
+    min-width: 3000px;
+    max-width: 3900px; }
+
+  /****** NAVIGATION ******/
+  .navtabs-bg {
+    background-image: url("../images/retina/xxl/aside-rg-menu-bg.png");
+    width: 1950px; }
+
+  .aside-img {
+    max-width: 214px;
+    max-height: 134px; }
+
+  .aside-left-logo {
+    background-image: url("../images/retina/xxl/logo-small-left.png"); }
+
+  .aside-left-logo:hover, .aside-left-logo:focus {
+    background-image: url("../images/retina/xxl/logo-sm-left-hover.png"); }
+
+  .aside-right-menu {
+    background-image: url("../images/retina/xxl/aside-right-menu.png"); }
+
+  .aside-right-menu:hover, .aside-right-menu:focus {
+    background-image: url("../images/retina/xxl/aside-rg-menu-hover.png"); }
+
+  /****** MEDIA OBJECTS ******/
+  .choose-language {
+    background-image: url("../images/retina/xxl/bg-img-languages.png"); }
+
+  .logo {
+    background-image: url("../images/retina/xxl/logo.png");
+    width: 446px;
+    height: 104px; }
+
+  .choose-layout .img-lyt {
+    margin: 0 auto;
+    max-width: 946px;
+    max-height: 1298px; }
+
+  .welcome-img {
+    max-width: 1318px;
+    max-height: 870px; }
+
+  .welcome-img-pt {
+    background-image: url("../images/retina/xxl/homepg-welcome-img-pt.png"); }
+
+  .welcome-img-en {
+    background-image: url("../images/retina/xxl/homepg-welcome-img-en.png"); }
+
+  .welcome-img-es {
+    background-image: url("../images/retina/xxl/homepg-welcome-img-es.png"); }
+
+  .connector-img {
+    width: 88px; }
+
+  .pink-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-pink.png");
+    height: 290px; }
+
+  .grey-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-grey.png");
+    height: 290px; }
+
+  .grey-big-connector-img {
+    background-image: url("../images/retina/xxl/connector-img-grey-big.png");
+    height: 568px; }
+
+  /****** ABOUT PAGE ******/
+  /* ------------------------------------- */
+  /* About page images */
+  .about-pg .about-pg-imgs .about-img-container {
+    width: 2752px; }
+  .about-pg .about-pg-imgs .about-img-cover {
+    background-image: url("../images/about/retina/xxl/img-about-cover.png");
+    height: 880.64px; }
+
+  /****** CONTACT PAGE ******/
+  /* ------------------------------------- */
+  .contact-pg {
+    background-image: url("../images/contact/retina/xxl/img-contact.png");
+    width: 2752px;
+    height: 2118.324px; }
+
+  .contact-sent-pg {
+    background-image: url("../images/contact/retina/xxl/img-contact-sent.png");
+    width: 2752px;
+    height: 1348.48px; }
+
+  /* ------------------------------------- */
+  .footer-img {
+    background-image: url("../images/retina/xxl/footer-img.png");
+    width: 3898px;
+    height: 38px; }
+
+  /* ------------------------------------- */
+  /* 404 PAGE */
+  .pg-404 .pg-404-img {
+    background-image: url("../images/retina/xxl/404-error-img.png");
+    width: 2752px;
+    height: 688px; } }
 /*End of Media Queries - Extra large devices - RETINA Screens
 ---------------------------------------------------------------------------------------------------------- */
 /*************************************************************************************************************/
@@ -4628,7 +4847,7 @@ summary.aside-right-menu::-webkit-details-marker {
   /* Contact text */
   .contact-pg-text {
     margin-top: -9em; } }
-/*End of Media Queries - Extra large devices -Retina Screens
+/*End of Media Queries - Extra large devices - non-Retina Screens
 ---------------------------------------------------------------------------------------------------------- */
 /* End of Media Queries
 ---------------------------------------------------------------- */

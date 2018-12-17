@@ -53,7 +53,63 @@
 </head>
 <body>
   <header id="top">
-    <span class="sr-only">header</span>
+    
+  
+      <nav id="topNavbar" class="d-flex flex-row justify-content-between navbar navbar-expand-md d-block d-md-none navbar-light bg-light">
+  <!-- Brand -->
+  <a
+    id="brand" class="navbar-brand logo"
+    
+
+
+
+ href="/es/layout1/" 
+>
+    <span class="sr-only">Logo</span>
+  </a>
+  <!-- Toggler button -->
+  <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- NavTabs-->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+    
+  <!-- Home Page Navtab -->
+  <li  class="nav-item">
+    <a class="nav-link" href="/es/layout1/">
+      
+      Inicio 
+    </a>
+  </li>
+   <!-- About Page Navtab -->
+   <li  class="nav-item">
+     <a class="nav-link" href="/es/layout1/sobre/">
+       
+       Sobre 
+     </a>
+   </li>
+   <!-- Works Page Navtab -->
+   <li  class="nav-item">
+     <a onclick="closeDetailsRightMenu()" class="nav-link" href="/es/layout1/#myWorks">
+       
+       Trabajos 
+     </a>
+   </li>
+   <!-- Contact Page Navtab -->
+   <li  class="nav-item active" >
+     <a class="nav-link" href="/es/layout1/contactar/">
+        Contactar<span class="sr-only">(current page)</span>  
+     </a>
+   </li>
+
+  </ul>
+  </div>
+</nav>
+
+  
+
+
   </header>
   <main>
     <div class="content d-flex flex-column align-items-center">

@@ -850,6 +850,7 @@
   }
   .aside-left-logo:hover, .aside-left-logo:focus {
     background-image: url('../images/md/logo-sm-left-hover.png'); //only visible after md screens
+    margin-left: -1px;
   }
 
   .aside-right-menu:hover, .aside-right-menu:focus {

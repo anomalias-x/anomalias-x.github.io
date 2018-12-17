@@ -159,7 +159,7 @@ a.arrow:hover, a.arrow:focus {
           text-decoration: none;
           .work-text {
             color: $grey;
-            font-weight: bold;
+            font-weight: 500;
             font-size: $font-size-base * 0.85;
             line-height: 1.1;
             max-width: 184px !important;
@@ -171,7 +171,7 @@ a.arrow:hover, a.arrow:focus {
           }
           .work-categories {
             color: $blue;
-            font-weight: bold;
+            font-weight: 500;
             text-transform: uppercase;
             font-size: $font-size-base * 0.57;
             line-height: 1.1;

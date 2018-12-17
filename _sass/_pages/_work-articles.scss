@@ -30,8 +30,8 @@
     font-weight: bold;
     text-transform: uppercase;
     -webkit-hyphens: none;
-   -moz-hyphens: none;
-    hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
     margin-top: 2em;
     margin-bottom: 1.2em;
     width: 75%;
@@ -42,6 +42,9 @@
     color: $grey;
     font-weight: 400;
     font-size: $font-size-base * 0.8;
+    -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
     line-height: 1.35;
     width: 75%;
 

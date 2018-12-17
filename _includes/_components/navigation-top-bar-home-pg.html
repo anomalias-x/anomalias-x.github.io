@@ -1,0 +1,18 @@
+<nav id="topNavbar" class="navbar navbar-expand-md navbar-light bg-light">
+  <!-- Brand -->
+  <a
+    id="brand" class="navbar-brand logo"
+    {% include _components/navbar-brand-url.html %}>
+    <span class="sr-only">Logo</span>
+  </a>
+  <!-- Toggler button -->
+  <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- NavTabs-->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+    {% include _components/navbar-tabs-lyt1.html %}
+  </ul>
+  </div>
+</nav>

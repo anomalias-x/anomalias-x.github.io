@@ -84,7 +84,7 @@
   margin: 0;
   margin-right: 5%;
   .navbar-toggler-icon {
-    background-image: url('../images/svg/icons8-menu-green.svg');
+    background-image: url('../images/svg/icons8-menu-blue.svg');
   }
 }
 .navbar-toggler:focus {
@@ -224,6 +224,7 @@ summary.aside-right-menu::-webkit-details-marker {
       margin: 15px;
       .nav-link {
         color: $white;
+        text-shadow: 1px 1px $yellow;
         font-family: $font-stack;
         font-size: $font-size-base * 1.2;
         //line-height: 1;
