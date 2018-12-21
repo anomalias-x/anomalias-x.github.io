@@ -2,7 +2,7 @@
 # ----------------------
 pt:
 -
-  message: Este site usa cookies para melhorar a sua experiencia como utilizador e para analisar o tráfico.<br> Informações sobre o uso deste site será partilhado com a Google.
+  message: Este site usa cookies para melhorar a sua experiencia como utilizador e para analisar o tráfico. Informações sobre o uso deste site será partilhado com a Google.
   botton-yes: OK, entendi
   botton-no: + informação
   lear-more: https://www.google.com/policies/technologies/cookies/
@@ -11,7 +11,7 @@ pt:
 # ----------------------
 en:
 -
-  message: This site uses cookies to enhance your user experience and to analyse traffic. Information about your use of this site is shared with Google.<br>
+  message: This site uses cookies to enhance your user experience and to analyse traffic. Information about your use of this site is shared with Google.
   botton-yes: Got it
   botton-no: Learn more
   lear-more: https://www.google.com/policies/technologies/cookies/
@@ -20,7 +20,7 @@ en:
 # ----------------------
 es:
 -
-  message: Este sitio utiliza cookies para mejorar su experiencia como usuario y para analizar el tráfico. La información sobre el uso de este sitio será compartida con Google.<br>
+  message: Este sitio utiliza cookies para mejorar su experiencia como usuario y para analizar el tráfico. La información sobre el uso de este sitio será compartida con Google.
   botton-yes: OK, entendí
   botton-no: + información
   lear-more: https://www.google.com/policies/technologies/cookies/
