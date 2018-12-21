@@ -9,7 +9,7 @@ pt:
   hometextpart2: HOME
   hometextpart3: .
   emailtextpart1: Se encontrou um hiperlink quebrado, clicou e não funciona, por favor envie um
-  emailtextpart2: email #"Email Us" if it's plural
+  emailtextpart2: e-mail #"Email Us" if it's plural
 
   # Page 404 in English:
 # ----------------------
