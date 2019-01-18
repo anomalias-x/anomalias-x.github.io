@@ -1975,7 +1975,7 @@ summary.aside-right-menu::-webkit-details-marker {
   .about-pg .about-pg-imgs .about-img-container {
     width: 705px; }
   .about-pg .about-pg-imgs .about-img-cover {
-    background-image: url("../images/about/md/img-about-cover.png");
+    background-image: url("../images/about/sm/img-about-cover.png");
     height: 225.6px; }
   .about-pg .about-pg-imgs .about-img-hdg1 {
     background-image: url("../images/about/sm/img-about-hdg1.png");
@@ -2114,7 +2114,7 @@ summary.aside-right-menu::-webkit-details-marker {
     background-image: url("../images/about/lg/img-about-hdg5-es.png"); } }
 @media (min-width: 1200px) {
   .about-pg .about-pg-imgs .about-img-container {
-    width: 1101px !important; }
+    width: 1101px; }
   .about-pg .about-pg-imgs .about-img-cover {
     background-image: url("../images/about/xl/img-about-cover.png");
     height: 317.088px;
@@ -2163,39 +2163,39 @@ summary.aside-right-menu::-webkit-details-marker {
     background-image: url("../images/about/xl/img-about-hdg5-es.png"); } }
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .about-pg .about-pg-imgs .about-img-cover {
-    background-image: url("../images/about/retina/xl/img-about-cover.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-cover.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1 {
-    background-image: url("../images/about/retina/xl/img-about-hdg1.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg1.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-pt {
-    background-image: url("../images/about/retina/xl/img-about-hdg1-pt.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg1-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-en {
-    background-image: url("../images/about/retina/xl/img-about-hdg1-en.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg1-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-es {
-    background-image: url("../images/about/retina/xl/img-about-hdg1-es.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg1-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-pt {
-    background-image: url("../images/about/retina/xl/img-about-hdg2-pt.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg2-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-en {
-    background-image: url("../images/about/retina/xl/img-about-hdg2-en.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg2-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-es {
-    background-image: url("../images/about/retina/xl/img-about-hdg2-es.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg2-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-pt {
-    background-image: url("../images/about/retina/xl/img-about-hdg3-pt.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg3-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-en {
-    background-image: url("../images/about/retina/xl/img-about-hdg3-en.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg3-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-es {
-    background-image: url("../images/about/retina/xl/img-about-hdg3-es.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg3-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-pt {
-    background-image: url("../images/about/retina/xl/img-about-hdg4-pt.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg4-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-en {
-    background-image: url("../images/about/retina/xl/img-about-hdg4-en.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg4-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-es {
-    background-image: url("../images/about/retina/xl/img-about-hdg4-es.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg4-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-pt {
-    background-image: url("../images/about/retina/xl/img-about-hdg5-pt.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg5-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-en {
-    background-image: url("../images/about/retina/xl/img-about-hdg5-en.png") !important; }
+    background-image: url("../images/about/retina/xl/img-about-hdg5-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-es {
-    background-image: url("../images/about/retina/xl/img-about-hdg5-es.png") !important; } }
+    background-image: url("../images/about/retina/xl/img-about-hdg5-es.png"); } }
 @media (min-width: 1500px) {
   .about-pg .about-pg-imgs .about-img-container {
     width: 1376px; }
@@ -2245,39 +2245,39 @@ summary.aside-right-menu::-webkit-details-marker {
     background-image: url("../images/about/xxl/img-about-hdg5-es.png"); } }
 @media (min-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .about-pg .about-pg-imgs .about-img-cover {
-    background-image: url("../images/about/retina/xxl/img-about-cover.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-cover.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1 {
-    background-image: url("../images/about/retina/xxl/img-about-hdg1.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg1.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-pt {
-    background-image: url("../images/about/retina/xxl/img-about-hdg1-pt.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg1-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-en {
-    background-image: url("../images/about/retina/xxl/img-about-hdg1-en.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg1-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg1-es {
-    background-image: url("../images/about/retina/xxl/img-about-hdg1-es.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg1-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-pt {
-    background-image: url("../images/about/retina/xxl/img-about-hdg2-pt.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg2-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-en {
-    background-image: url("../images/about/retina/xxl/img-about-hdg2-en.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg2-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg2-es {
-    background-image: url("../images/about/retina/xxl/img-about-hdg2-es.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg2-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-pt {
-    background-image: url("../images/about/retina/xxl/img-about-hdg3-pt.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg3-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-en {
-    background-image: url("../images/about/retina/xxl/img-about-hdg3-en.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg3-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg3-es {
-    background-image: url("../images/about/retina/xxl/img-about-hdg3-es.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg3-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-pt {
-    background-image: url("../images/about/retina/xxl/img-about-hdg4-pt.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg4-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-en {
-    background-image: url("../images/about/retina/xxl/img-about-hdg4-en.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg4-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg4-es {
-    background-image: url("../images/about/retina/xxl/img-about-hdg4-es.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg4-es.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-pt {
-    background-image: url("../images/about/retina/xxl/img-about-hdg5-pt.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg5-pt.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-en {
-    background-image: url("../images/about/retina/xxl/img-about-hdg5-en.png") !important; }
+    background-image: url("../images/about/retina/xxl/img-about-hdg5-en.png"); }
   .about-pg .about-pg-imgs .about-img-hdg5-es {
-    background-image: url("../images/about/retina/xxl/img-about-hdg5-es.png") !important; } }
+    background-image: url("../images/about/retina/xxl/img-about-hdg5-es.png"); } }
 /*****************************************************************************/
 /* each individual WORK PAGE ------------------------------------------- */
 /* Typography and others */
