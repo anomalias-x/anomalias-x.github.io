@@ -1,357 +1,93 @@
+/* MAIN TYPOGRAPHY--------------------------------------- */
+/*----------------------------------------- */
 /* Text weight */
 .font-light {
   font-weight: 300;
 }
-
 .font-regular {
   font-weight: 400;
 }
-
 .font-medium {
   font-weight: 500;
 }
-
 .font-bold {
   font-weight: 700;
 }
-
+/*----------------------------------------- */
 /* Text style */
 .font-italic {
   font-style: italic;
 }
-
+/*----------------------------------------- */
 /* Text size */
 .font-size-12pt {
   font-size: $font-size-base * 0.60;
 }
-
 .font-size-13pt {
   font-size: $font-size-base * 0.65;
 }
-
 .font-size-15pt {
   font-size: $font-size-base * 0.75;
 }
-
 .font-size-17pt {
   font-size: $font-size-base * 0.85;
 }
-
 .font-size-20pt {
   font-size: $font-size-base;
 }
-
 .font-size-22pt {
   font-size: $font-size-base * 1.1;
 }
-
 .font-size-30pt {
   font-size: $font-size-base * 1.5;
 }
-
 .font-size-35pt {
   font-size: $font-size-base * 1.75;
 }
-
 .font-size-50pt {
   font-size: $font-size-base * 2.5;
 }
-
+/*----------------------------------------- */
 /* Text paragraph light spacing */
 .line-spacing-single {
   line-height: 1;
 }
-
 .line-spacing-double {
   line-height: 2;
 }
-
+/*----------------------------------------- */
 /* Text alignment */
 .text-centered {
   text-align: center;
 }
-
 .text-left {
   text-align: left;
 }
-
 .text-right {
   text-align: right;
 }
-
+/*----------------------------------------- */
 /* Other typography */
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
-
 a.arrow {
   color: $pink-rgba;
   text-decoration: none ;
 }
-
 a.arrow:hover, a.arrow:focus {
   color: $green-rgba;
 }
 
-/* home-pg explore container */
-.explore-container {
-  margin-top: -1em;
-  margin-bottom: 3em;
-  font-size: $font-size-base * 0.9;
-  font-weight: 400;
-  .arrow {
-    color: $pink-rgba;
-    text-decoration: none ;
-  }
 
-  .arrow:hover, a.arrow:focus {
-    color: $green-rgba;
-  }
-}
-/* work years */
-.years {
-  margin: 0;
-  padding: 0;
-  .year-details {
-    .year-text {
-      color: $blue-rgba;
-      font-family: $font-stack;
-      font-size: $font-size-base * 1;
-      font-weight: bold;
-      width: 60px;
-      margin: 0 auto;
-      margin-top: 4em;
-      margin-bottom: 4em;
-      display: block;
-    }
-    .year-text:hover, .year-text:focus {
-      color: $grey;
-    }
-    .year-text:focus {
-      border-color: transparent;
-      outline: 0;
-      -webkit-box-shadow: none;
-      box-shadow: none;
-    }
-    summary.year-text::-webkit-details-marker {
-      display: none;
-    }
-    .year-imgs {
-      list-style-type: none;
-      margin: 0;
-      margin-top: -1em;
-      padding: 0;
-      .works-imgs {
-        .works-imgs-link {
-          text-decoration: none;
-          .work-text {
-            color: $grey;
-            font-weight: 500;
-            font-size: $font-size-base * 0.85;
-            line-height: 1.1;
-            max-width: 184px !important;
-            display: block;
-            margin: 0 auto;
-          }
-          .work-text:hover {
-            color: $yellow;
-          }
-          .work-categories {
-            color: $blue;
-            font-weight: 500;
-            text-transform: uppercase;
-            font-size: $font-size-base * 0.57;
-            line-height: 1.1;
-            max-width: 184px !important;
-            margin: 0 auto;
-          }
-          .work-categories:hover {
-            color: $yellow;
-          }
-        }
-      }
-    }
-    .close-arrow-up {
-      line-height: 0.8;
-      margin-bottom: 2em;
-      .close-details {
-        font-size: $font-size-base * 0.65;
-        font-weight: bold;
-        color: $pink-rgba;
-        .arrow {
-          font-size: $font-size-base * 2;
-          margin: 0;
-        }
-      }
-      .close-details:hover {
-        color: $pink;
-        text-decoration: none;
-      }
-    }
-  }
-  .year-rotation-odd {
-    padding-left: 10px;
-    border-left: 3px dashed $yellow;
-    @include rotate(-45deg);
-  }
-
-  .year-rotation-even {
-    padding-right: 10px;
-    border-right: 3px dashed $yellow;
-    @include rotate(45deg);
-  }
-  details.year-details[open] {
-    summary.year-text {
-      //color: $grey;
-      //border-right: 3px dashed $yellow;
-    }
-  }
-  details.year-details[open] {
-    summary.year-text.year-rotation-odd {
-      color: $grey;
-      padding-left: 10px;
-      border-left: 3px dashed $yellow;
-    }
-  }
-  details.year-details[open] {
-    summary.year-text.year-rotation-even {
-      color: $grey;
-      padding-right: 10px;
-      border-right: 3px dashed $yellow;
-    }
-  }
-}
-/* Back to top and Go Back */
-.back-to-top, .go-back {
-
-  text-decoration: none;
-  .arrow {
-    margin: 0;
-    color: $yellow;
-    line-height: 1;
-    margin-top: 2em;
-  }
-  .back-to-top-text, .go-back-text {
-    color: $green;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-}
-
-.go-back {
-  display: inline-flex;
-  margin-top: 0.5em;
-  .arrow {
-    margin: 0;
-    margin-right: 0.5em;
-    @include rotate(-90deg);
-  }
-  .go-back-text {
-    margin-top: 0.4em;
-  }
-  //margin-bottom: 1em;
-}
-.back-to-top:hover, .back-to-top:focus,
-.go-back:hover,  .go-back:focus {
-  text-decoration: none;
-  .arrow {
-    color: $yellow-rgba;
-  }
-  .back-to-top-text, .go-back-text {
-    color: $green-rgba;
-    text-transform: uppercase;
-  }
-}
-
-/* CONTACTS PG */
-.contact-pg-text {
-  font-size: $font-size-base * 0.9;
-  margin-top: -5em; // to do the sobreposition of text and contact's image
-  margin-left: 2em; // to fit the text in the middle of the image's arrow
-}
-.send-section-text {
-  margin: 0 auto;
-  .contact-send-title {
-    margin: 0 auto;
-    color: $blue;
-    font-size: $font-size-base * 1.4;
-    font-weight: 400;
-    margin-bottom: 2em;
-    width: 80%;
-  }
-
-  .contact-send-text {
-    margin: 0 auto;
-    text-align: center;
-    color: $grey;
-    font-size: $font-size-base * 0.9;
-    font-weight: 400;
-    width: 65%;
-  }
-  .contact-send-text.small {
-    margin: 0 auto;
-    margin-top: 2em;
-    color: $grey;
-    font-size: $font-size-base * 0.8;
-    font-weight: 300;
-    font-style: italic;
-  }
-}
-
-/* ------------------------------------- */
-/* 404 PAGE */
-.pg-404 {
-  .pg-404-subtitle {
-    margin: 0 auto;
-    color: $blue;
-    font-size: $font-size-base * 1.6;
-    font-weight: bold;
-    //margin-top: 2em;
-    margin-bottom: 0.5em;
-  }
-  .pg-404-lead-text {
-    margin: 0 auto;
-    color: $grey;
-    font-weight: 400;
-    font-size: $font-size-base * 1.2;
-    line-height: 1.35;
-    width: 75%;
-  }
-  .pg-404-text {
-    margin: 0 auto;
-    color: $grey;
-    font-weight: 400;
-    font-size: $font-size-base * 0.85;
-    line-height: 1.35;
-    margin-top: 3em;
-    //margin-bottom: 3em;
-    width: 75%;
-  }
-  .pg-404-note {
-    margin: 0 auto;
-    color: $grey;
-    font-weight: 300;
-    font-size: $font-size-base * 0.8;
-    width: 75%;
-    //margin-bottom: 4em;
-    .pg-404-note-link {
-      color: $green;
-    }
-    .pg-404-note-link:hover, .pg-404-note-link:focus {
-      color: $pink;
-    }
-  }
-}
+/*****************************************************************************/

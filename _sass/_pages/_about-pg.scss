@@ -1,4 +1,5 @@
-/* each page of eah individual work*/
+/* ABOUT PAGE ------------------------------------------- */
+/* About Thypography*/
 .about-pg {
   margin-top: 3em;
   max-width: 100%;
@@ -31,3 +32,660 @@
     }
   }
 }
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  .about-pg {
+    .about-text {
+      .about-title {
+        font-size: $font-size-base * 1.4;
+      }
+      .about-bio {
+        font-size: $font-size-base * 0.8;
+      }
+      .about-text {
+        font-size: $font-size-base * 0.7;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  .about-pg {
+    .about-text {
+      .about-title {
+        font-size: $font-size-base * 1.45;
+      }
+      .about-bio {
+        font-size: $font-size-base * 0.85;
+      }
+      .about-text {
+        font-size: $font-size-base * 0.75;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  .about-pg {
+    .about-text {
+      width: 80%;
+      .about-title {
+        font-size: $font-size-base * 1.5;
+      }
+      .about-bio {
+        font-size: $font-size-base * 0.95;
+      }
+      .about-text {
+        font-size: $font-size-base * 0.85;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  .about-pg {
+    .about-text {
+      width: 70%;
+      .about-title {
+        font-size: $font-size-base * 1.6;
+      }
+      .about-bio {
+        font-size: $font-size-base * 1;
+      }
+      .about-text {
+        font-size: $font-size-base * 0.92;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  .about-pg {
+    .about-text {
+      .about-title {
+        font-size: $font-size-base * 1.7;
+      }
+      .about-bio {
+        font-size: $font-size-base * 1.15;
+      }
+      .about-text {
+        font-size: $font-size-base * 1;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XXL devices (≥1500px) – RETINA Screens
+
+}
+
+/* ------------------------------------- */
+/* ABOUT PAGE IMAGES */
+.about-pg {
+  .about-pg-imgs {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    .about-img-container {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin: 0 auto;
+      width: $proj-img-width-xs; //= to about pages
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      .about-img-anchor {
+        width: inherit;
+        height: inherit;
+      }
+    }
+    .about-img-cover {
+        background-image:  url('../images/about/xs/img-about-cover.png');
+        height: $proj-img-width-sm * 0.32;
+    }
+    .about-img-hdg1 {
+        //background-image:  url('../images/about/xs/img-about-hdg1.png');
+        height: $proj-img-width-xs * 3.14;
+    }
+    .about-img-hdg1-pt {
+        background-image:  url('../images/about/xs/img-about-hdg1-pt.png');
+    }
+    .about-img-hdg1-en {
+        background-image:  url('../images/about/xs/img-about-hdg1-en.png');
+    }
+    .about-img-hdg1-es {
+        background-image:  url('../images/about/xs/img-about-hdg1-es.png');
+    }
+    .about-img-hdg2 {
+        height: $proj-img-width-xs * 3.137;
+    }
+    .about-img-hdg2-pt {
+        background-image:  url('../images/about/xs/img-about-hdg2-pt.png');
+    }
+    .about-img-hdg2-en {
+        background-image:  url('../images/about/xs/img-about-hdg2-en.png');
+    }
+    .about-img-hdg2-es {
+        background-image:  url('../images/about/xs/img-about-hdg2-es.png');
+    }
+    .about-img-hdg3 {
+        height: $proj-img-width-xs * 2.88;
+    }
+    .about-img-hdg3-pt {
+        background-image:  url('../images/about/xs/img-about-hdg3-pt.png');
+    }
+    .about-img-hdg3-en {
+        background-image:  url('../images/about/xs/img-about-hdg3-en.png');
+    }
+    .about-img-hdg3-es {
+        background-image:  url('../images/about/xs/img-about-hdg3-es.png');
+    }
+    .about-img-hdg4 {
+        height: $proj-img-width-xs * 3.4;
+    }
+    .about-img-hdg4-pt {
+        background-image:  url('../images/about/xs/img-about-hdg4-pt.png');
+    }
+    .about-img-hdg4-en {
+        background-image:  url('../images/about/xs/img-about-hdg4-en.png');
+    }
+    .about-img-hdg4-es {
+        background-image:  url('../images/about/xs/img-about-hdg4-es.png');
+    }
+    .about-img-hdg5 {
+        height: $proj-img-width-xs * 3.14;
+    }
+    .about-img-hdg5-pt {
+        background-image:  url('../images/about/xs/img-about-hdg5-pt.png');
+    }
+    .about-img-hdg5-en {
+        background-image:  url('../images/about/xs/img-about-hdg5-en.png');
+    }
+    .about-img-hdg5-es {
+        background-image:  url('../images/about/xs/img-about-hdg5-es.png');
+    }
+  }
+}
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-container {
+        width: $proj-img-width-md; //= to about pages
+      }
+      .about-img-cover {
+          background-image:  url('../images/about/md/img-about-cover.png');
+          height: $proj-img-width-md * 0.32;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/sm/img-about-hdg1.png');
+          height: $proj-img-width-sm * 3.14;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/sm/img-about-hdg1-pt.png');
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/sm/img-about-hdg1-en.png');
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/sm/img-about-hdg1-es.png');
+      }
+      .about-img-hdg2 {
+          height: $proj-img-width-sm * 3.137;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/sm/img-about-hdg2-pt.png');
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/sm/img-about-hdg2-en.png');
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/sm/img-about-hdg2-es.png');
+      }
+      .about-img-hdg3 {
+          height: $proj-img-width-sm * 2.88;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/sm/img-about-hdg3-pt.png');
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/sm/img-about-hdg3-en.png');
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/sm/img-about-hdg3-es.png');
+      }
+      .about-img-hdg4 {
+          height: $proj-img-width-sm * 3.4;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/sm/img-about-hdg4-pt.png');
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/sm/img-about-hdg4-en.png');
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/sm/img-about-hdg4-es.png');
+      }
+      .about-img-hdg5 {
+          height: $proj-img-width-sm * 3.14;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/sm/img-about-hdg5-pt.png');
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/sm/img-about-hdg5-en.png');
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/sm/img-about-hdg5-es.png');
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-container {
+        width: $proj-img-width-md; //= to about pages
+      }
+      .about-img-cover {
+          background-image:  url('../images/about/md/img-about-cover.png');
+          height: $proj-img-width-md * 0.32;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/md/img-about-hdg1.png');
+          height: $proj-img-width-md * 0.544;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/md/img-about-hdg1-pt.png');
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/md/img-about-hdg1-en.png');
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/md/img-about-hdg1-es.png');
+      }
+      .about-img-hdg2 {
+          height: $proj-img-width-md * 0.736;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/md/img-about-hdg2-pt.png');
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/md/img-about-hdg2-en.png');
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/md/img-about-hdg2-es.png');
+      }
+      .about-img-hdg3 {
+          height: $proj-img-width-md * 0.656;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/md/img-about-hdg3-pt.png');
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/md/img-about-hdg3-en.png');
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/md/img-about-hdg3-es.png');
+      }
+      .about-img-hdg4 {
+          height: $proj-img-width-md * 0.739;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/md/img-about-hdg4-pt.png');
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/md/img-about-hdg4-en.png');
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/md/img-about-hdg4-es.png');
+      }
+      .about-img-hdg5 {
+          height: $proj-img-width-md * 0.933;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/md/img-about-hdg5-pt.png');
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/md/img-about-hdg5-en.png');
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/md/img-about-hdg5-es.png');
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-container {
+        width: $proj-img-width-lg; //= to about pages
+      }
+      .about-img-cover {
+          background-image:  url('../images/about/lg/img-about-cover.png');
+          height: $proj-img-width-lg * 0.32;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/lg/img-about-hdg1.png');
+          height: $proj-img-width-xxl * 0.544;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/lg/img-about-hdg1-pt.png');
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/lg/img-about-hdg1-en.png');
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/lg/img-about-hdg1-es.png');
+      }
+      .about-img-hdg2 {
+          height: $proj-img-width-lg * 0.736;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/lg/img-about-hdg2-pt.png');
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/lg/img-about-hdg2-en.png');
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/lg/img-about-hdg2-es.png');
+      }
+      .about-img-hdg3 {
+          height: $proj-img-width-lg * 0.656;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/lg/img-about-hdg3-pt.png');
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/lg/img-about-hdg3-en.png');
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/lg/img-about-hdg3-es.png');
+      }
+      .about-img-hdg4 {
+          height: $proj-img-width-lg * 0.739;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/lg/img-about-hdg4-pt.png');
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/lg/img-about-hdg4-en.png');
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/lg/img-about-hdg4-es.png');
+      }
+      .about-img-hdg5 {
+          height: $proj-img-width-lg * 0.933;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/lg/img-about-hdg5-pt.png');
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/lg/img-about-hdg5-en.png');
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/lg/img-about-hdg5-es.png');
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-container {
+        width: $proj-img-width-xl !important; //= to about pages
+      }
+      .about-img-cover {
+          background-image:  url('../images/about/xl/img-about-cover.png');
+          height: $proj-img-width-xl * 0.32 * 0.9;
+          width: $proj-img-width-xl * 0.9;
+          margin-top: -2em;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/xl/img-about-hdg1.png');
+          height: $proj-img-width-xl * 0.544;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/xl/img-about-hdg1-pt.png');
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/xl/img-about-hdg1-en.png');
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/xl/img-about-hdg1-es.png');
+      }
+      .about-img-hdg2 {
+          height: $proj-img-width-xl * 0.736;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/xl/img-about-hdg2-pt.png');
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/xl/img-about-hdg2-en.png');
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/xl/img-about-hdg2-es.png');
+      }
+      .about-img-hdg3 {
+          height: $proj-img-width-xl * 0.656;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/xl/img-about-hdg3-pt.png');
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/xl/img-about-hdg3-en.png');
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/xl/img-about-hdg3-es.png');
+      }
+      .about-img-hdg4 {
+          height: $proj-img-width-xl * 0.739;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/xl/img-about-hdg4-pt.png');
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/xl/img-about-hdg4-en.png');
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/xl/img-about-hdg4-es.png');
+      }
+      .about-img-hdg5 {
+          height: $proj-img-width-xl * 0.933;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/xl/img-about-hdg5-pt.png');
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/xl/img-about-hdg5-en.png');
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/xl/img-about-hdg5-es.png');
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XL devices (≥1200px) – RETINA Screens
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-cover {
+          background-image:  url('../images/about/retina/xl/img-about-cover.png') !important;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/retina/xl/img-about-hdg1.png') !important;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/retina/xl/img-about-hdg1-pt.png') !important;
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/retina/xl/img-about-hdg1-en.png') !important;
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/retina/xl/img-about-hdg1-es.png') !important;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/retina/xl/img-about-hdg2-pt.png') !important;
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/retina/xl/img-about-hdg2-en.png') !important;
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/retina/xl/img-about-hdg2-es.png') !important;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/retina/xl/img-about-hdg3-pt.png') !important;
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/retina/xl/img-about-hdg3-en.png') !important;
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/retina/xl/img-about-hdg3-es.png') !important;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/retina/xl/img-about-hdg4-pt.png') !important;
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/retina/xl/img-about-hdg4-en.png') !important;
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/retina/xl/img-about-hdg4-es.png') !important;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/retina/xl/img-about-hdg5-pt.png') !important;
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/retina/xl/img-about-hdg5-en.png') !important;
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/retina/xl/img-about-hdg5-es.png') !important;
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-container {
+        width: $proj-img-width-xxl; //= to about pages
+      }
+      .about-img-cover {
+          background-image:  url('../images/about/xxl/img-about-cover.png');
+          height: $proj-img-width-xxl * 0.32 * 0.9;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/xxl/img-about-hdg1.png');
+          height: $proj-img-width-xxl * 0.544;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/xxl/img-about-hdg1-pt.png');
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/xxl/img-about-hdg1-en.png');
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/xxl/img-about-hdg1-es.png');
+      }
+      .about-img-hdg2 {
+          height: $proj-img-width-xxl * 0.736;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/xxl/img-about-hdg2-pt.png');
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/xxl/img-about-hdg2-en.png');
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/xxl/img-about-hdg2-es.png');
+      }
+      .about-img-hdg3 {
+          height: $proj-img-width-xxl * 0.656;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/xxl/img-about-hdg3-pt.png');
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/xxl/img-about-hdg3-en.png');
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/xxl/img-about-hdg3-es.png');
+      }
+      .about-img-hdg4 {
+          height: $proj-img-width-xxl * 0.739;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/xxl/img-about-hdg4-pt.png');
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/xxl/img-about-hdg4-en.png');
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/xxl/img-about-hdg4-es.png');
+      }
+      .about-img-hdg5 {
+          height: $proj-img-width-xxl * 0.933;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/xxl/img-about-hdg5-pt.png');
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/xxl/img-about-hdg5-en.png');
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/xxl/img-about-hdg5-es.png');
+      }
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XXL devices (≥1500px) – RETINA Screens
+  .about-pg {
+    .about-pg-imgs {
+      .about-img-cover {
+          background-image:  url('../images/about/retina/xxl/img-about-cover.png') !important;
+      }
+      .about-img-hdg1 {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg1.png') !important;
+      }
+      .about-img-hdg1-pt {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg1-pt.png') !important;
+      }
+      .about-img-hdg1-en {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg1-en.png') !important;
+      }
+      .about-img-hdg1-es {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg1-es.png') !important;
+      }
+      .about-img-hdg2-pt {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg2-pt.png') !important;
+      }
+      .about-img-hdg2-en {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg2-en.png') !important;
+      }
+      .about-img-hdg2-es {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg2-es.png') !important;
+      }
+      .about-img-hdg3-pt {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg3-pt.png') !important;
+      }
+      .about-img-hdg3-en {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg3-en.png') !important;
+      }
+      .about-img-hdg3-es {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg3-es.png') !important;
+      }
+      .about-img-hdg4-pt {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg4-pt.png') !important;
+      }
+      .about-img-hdg4-en {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg4-en.png') !important;
+      }
+      .about-img-hdg4-es {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg4-es.png') !important;
+      }
+      .about-img-hdg5-pt {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg5-pt.png') !important;
+      }
+      .about-img-hdg5-en {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg5-en.png') !important;
+      }
+      .about-img-hdg5-es {
+          background-image:  url('../images/about/retina/xxl/img-about-hdg5-es.png') !important;
+      }
+    }
+  }
+}
+
+/*****************************************************************************/

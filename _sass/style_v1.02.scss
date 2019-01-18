@@ -48,8 +48,8 @@
 /* Images, videos, PDFs, Tables and Figures
 ---------------------------------------------------------------- */
 @import "_components/media-objects";
-@import "_components/buttons-labels-forms";
 /*----------------------*/
+
 
 /* End of Images, videos, PDFs, Tables and Figures
 ---------------------------------------------------------------- */
@@ -62,19 +62,10 @@
 /* Media Queries
 ---------------------------------------------------------------- */
 @import "_pages/home-pg";
-@import "_pages/work-articles";
 @import "_pages/about-pg";
+@import "_pages/work-articles";
+@import "_pages/contact-pg";
+@import "_pages/404error-pg";
+
 /* End of Pages
----------------------------------------------------------------- */
-
-
-
-/*********************************/
-/*         LAYOUT           */
-/*********************************/
-
-/* Media Queries
----------------------------------------------------------------- */
-@import "_layout/media-queries";
-/* End of Media Queries
 ---------------------------------------------------------------- */

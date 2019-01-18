@@ -1,0 +1,130 @@
+/* 404 ERROR PAGE ------------------------------------------- */
+.pg-404 {
+  margin-top: -6%;
+  .pg-404-img {
+    margin: 0 auto;
+    margin-top: 6%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../images/xs/404-error-img.png');
+    max-width: 100%;
+    max-height: 100%;
+    width: $proj-img-width-xs;
+    height: $proj-img-width-xs * 0.617;//0.652
+  }
+  .pg-404-subtitle {
+    margin: 0 auto;
+    color: $blue;
+    font-size: $font-size-base * 1.6;
+    font-weight: bold;
+    //margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+  .pg-404-lead-text {
+    margin: 0 auto;
+    color: $grey;
+    font-weight: 400;
+    font-size: $font-size-base * 1.2;
+    line-height: 1.35;
+    width: 75%;
+  }
+  .pg-404-text {
+    margin: 0 auto;
+    color: $grey;
+    font-weight: 400;
+    font-size: $font-size-base * 0.85;
+    line-height: 1.35;
+    margin-top: 3em;
+    //margin-bottom: 3em;
+    width: 75%;
+  }
+  .pg-404-note {
+    margin: 0 auto;
+    color: $grey;
+    font-weight: 300;
+    font-size: $font-size-base * 0.8;
+    width: 75%;
+    //margin-bottom: 4em;
+    .pg-404-note-link {
+      color: $green;
+    }
+    .pg-404-note-link:hover, .pg-404-note-link:focus {
+      color: $pink;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/sm/404-error-img.png');
+      width: $proj-img-width-sm;
+      height: $proj-img-width-sm * 0.652;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  .pg-404 {
+    .pg-404-lead-text {
+      width: 55%;
+    }
+    .pg-404-text {
+      width: 55%;
+    }
+    .pg-404-note {
+      width: 55%;
+    }
+    .pg-404-img {
+      background-image: url('../images/md/404-error-img.png');
+      width: $proj-img-width-md;
+      height: $proj-img-width-md * 0.25;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/lg/404-error-img.png');
+      width: $proj-img-width-lg;
+      height: $proj-img-width-lg * 0.25;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/xl/404-error-img.png');
+      width: $proj-img-width-xl;
+      height: $proj-img-width-xl * 0.25;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XL devices (≥1200px) – RETINA Screens
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/retina/xl/404-error-img.png');
+      width: $proj-img-width-xl;
+      height: $proj-img-width-xl * 0.25;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/xxl/404-error-img.png');
+      width: $proj-img-width-xxl;
+      height: $proj-img-width-xxl * 0.25;
+    }
+  }
+}
+@media (min-width: $media-breakpoint-xxl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XXL devices (≥1500px) – RETINA Screens
+  .pg-404 {
+    .pg-404-img {
+      background-image: url('../images/retina/xxl/404-error-img.png');
+      width: $proj-img-width-xxl;
+      height: $proj-img-width-xxl * 0.25;
+    }
+  }
+}
+
+/*****************************************************************************/

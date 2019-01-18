@@ -1,5 +1,4 @@
 /* STYLE CROSS ALL PAGES--------------------------------------- */
-/****** GENERAL ******/
 html {
   margin: 0 auto !important;
   font-size: $font-size-root;
@@ -17,7 +16,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   scroll-behavior: smooth;
 }
-
+/*----------------------------------------- */
 body {
   margin: 0 auto;
   max-width: $body-max-width-xs;
@@ -35,40 +34,207 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  //overflow-x: hidden;
+}
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+ body {
+   max-width: $body-max-width-sm;
  }
-
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+ body {
+   max-width: $body-max-width-md;
+ }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+ body {
+   max-width: $body-max-width-lg;
+ }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+ body {
+   max-width: $body-max-width-xl;
+ }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+ body {
+   max-width: $body-max-width-xxl;
+ }
+}
+/*----------------------------------------- */
 header {
   width: 100%;
   height: auto;
 }
-
-footer {
-  width: 100%;
-  height: auto;
-}
-
+/*----------------------------------------- */
 main {
   width: 100%;
   //width: 100vw;
   min-width: 100%;
   min-height: 100%;
 }
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  main {
+    margin-top: 67px; // = navbar logo height
+  }
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  main {
+    margin-top: 26px; // = navbar logo height
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  main {
+    margin-top: 32px; // = navbar logo height
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  main {
+    margin-top: 40px; // = navbar logo height
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  main {
+    margin-top: 52px; // = navbar logo height
+  }
+}
+/*----------------------------------------- */
+footer {
+  width: 100%;
+  height: auto;
+}
+.footer-img {
+    background-image: url('../images/xs/footer-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: $body-max-width-xs - 1px;
+    max-width: 100%;
+    height: 11px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  .footer-img {
+      background-image: url('../images/sm/footer-img.png');
+      width: $body-max-width-sm - 1px;
+      height: 15px;
+  }
+}
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  .footer-img {
+      background-image: url('../images/md/footer-img.png');
+      width: $body-max-width-md - 1px;
+      height: 10px;
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  .footer-img {
+      background-image: url('../images/lg/footer-img.png');
+      width: $body-max-width-lg - 1px;
+      height: 12px;
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  .footer-img {
+      background-image: url('../images/xl/footer-img.png');
+      width: $body-max-width-xl - 1px;
+      height: 15px;
+  }
+}
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XL devices (≥1200px) – RETINA Screens
+  .footer-img {
+      background-image: url('../images/retina/xl/footer-img.png');
+      width: $body-max-width-xl - 1px;
+      height: 15px;
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  .footer-img {
+      background-image: url('../images/xxl/footer-img.png');
+      width: $body-max-width-xxl - 1px;
+      height: 19px;
+  }
+}
+@media (min-width: $media-breakpoint-xxl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ // XXL devices (≥1500px) – RETINA Screens
+  .footer-img {
+      background-image: url('../images/retina/xxl/footer-img.png');
+      width: $body-max-width-xxl - 1px;
+      height: 19px;
+  }
+}
 
+/*----------------------------------------- */
+.full-screen {
+  width: 100% !important;
+  //width: 100vw !important;
+  min-height: 100%;
+  min-height: 100vh;
+  height: 95%;
+  height: 95vh !important; //more or less the navbar height
+  min-width: $media-breakpoint-xs;
+  min-height: auto;
+  max-width: $media-breakpoint-sm - 1px;
+  max-height: auto;
+}
+@media (min-width: $media-breakpoint-sm) { // sm devices (>=544px)
+  .full-screen {
+    min-width: $media-breakpoint-sm;
+    max-width: $media-breakpoint-md - 1px;
+  }
+}
+
+@media (min-width: $media-breakpoint-md) { // md devices (>=768px)
+  .full-screen {
+    min-width: $media-breakpoint-md;
+    max-width: $media-breakpoint-lg - 1px;
+  }
+}
+@media (min-width: $media-breakpoint-lg) { //lg (up >=992px)
+  .full-screen {
+    min-width: $media-breakpoint-lg;
+    max-width: $media-breakpoint-xl - 1px;
+  }
+}
+@media (min-width: $media-breakpoint-xl) { // XL devices (≥1200px) – Non-Retina Screens
+  .full-screen {
+    min-width: $media-breakpoint-xl;
+    max-width: $media-breakpoint-xxl - 1px;
+  }
+}
+@media (min-width: $media-breakpoint-xxl) { // XXL devices (≥1500px) – Non-Retina Screens
+  .full-screen {
+    min-width: $media-breakpoint-xxl;
+    max-width: $body-max-width-xxl;
+  }
+}
+/*----------------------------------------- */
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+/*----------------------------------------- */
+.disable {
+  display: none;
+}
+/*----------------------------------------- */
 .aside-top {
   width: 100%;
   height: 5%;
   position: absolute;
   top: 0;
 }
-
+/*----------------------------------------- */
 .aside-bottom {
   width: 100%;
   height: 5%;
   position: absolute;
   bottom: 0;
 }
-
+/*----------------------------------------- */
 .aside-left {
   position: absolute;
   top: 50%;
@@ -80,7 +246,7 @@ main {
   max-height: 5%;
   margin-left: 15px;
 }
-
+/*----------------------------------------- */
 .aside-right {
   position: absolute;
   top: 50%;
@@ -92,7 +258,7 @@ main {
   max-height: 5%;
   margin-right: 15px;
 }
-
+/*----------------------------------------- */
 .content {
   display: -ms-flexbox;
   display: flex;
@@ -106,36 +272,54 @@ main {
   //width: 100vw;
   height: auto;
 }
-
+/*----------------------------------------- */
 .margin-top {
   margin-top: 2em;
 }
+/*----------------------------------------- */
 .margin-bottom {
   margin-bottom: 2em;
 }
+/*----------------------------------------- */
+/* Back to top and Go Back */
+.back-to-top, .go-back {
 
-.full-screen {
-  width: 100% !important;
-  //width: 100vw !important;
-  min-height: 100%;
-  min-height: 100vh;
-  height: 95%;
-  height: 95vh !important; //more or less the navbar height
-  min-width: $media-breakpoint-xs;
-  min-height: auto;
-  max-width: $media-breakpoint-sm - 1px;
-  max-height: auto;
+  text-decoration: none;
+  .arrow {
+    margin: 0;
+    color: $yellow;
+    line-height: 1;
+    margin-top: 2em;
+  }
+  .back-to-top-text, .go-back-text {
+    color: $green;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }
 
-.full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+.go-back {
+  display: inline-flex;
+  margin-top: 0.5em;
+  .arrow {
+    margin: 0;
+    margin-right: 0.5em;
+    @include rotate(-90deg);
+  }
+  .go-back-text {
+    margin-top: 0.4em;
+  }
+  //margin-bottom: 1em;
 }
-
-.disable {
-  display: none;
+.back-to-top:hover, .back-to-top:focus,
+.go-back:hover,  .go-back:focus {
+  text-decoration: none;
+  .arrow {
+    color: $yellow-rgba;
+  }
+  .back-to-top-text, .go-back-text {
+    color: $green-rgba;
+    text-transform: uppercase;
+  }
 }
+/*****************************************************************************/

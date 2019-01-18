@@ -48,13 +48,13 @@
                 <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
               </div>
               <span class="work-text">{{ work.name }}</span>
-              {% for category in work.categories %}
-                <span class="work-categories">{{ category }}</span>
-                {% if forloop.last == false %}
-                /
-                {% endif %}
-              {% endfor %}
             </a>
+            {% for category in work.categories %}
+              <span class="work-categories">{{ category }}</span>
+              {% if forloop.last == false %}
+              <span class="work-categories-divider"> / </span>
+              {% endif %}
+            {% endfor %}
           </li>
           {% endif %}
         {% endfor %}
@@ -79,13 +79,13 @@
                 <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
               </div>
               <span class="work-text">{{ work.name }}</span>
-              {% for category in work.categories %}
-                <span class="work-categories">{{ category }}</span>
-                {% if forloop.last == false %}
-                /
-                {% endif %}
-              {% endfor %}
             </a>
+            {% for category in work.categories %}
+              <span class="work-categories">{{ category }}</span>
+              {% if forloop.last == false %}
+              <span class="work-categories-divider"> / </span>
+              {% endif %}
+            {% endfor %}
           </li>
           {% endif %}
         {% endfor %}
@@ -110,13 +110,13 @@
                 <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
               </div>
               <span class="work-text">{{ work.name }}</span>
-              {% for category in work.categories %}
-                <span class="work-categories">{{ category }}</span>
-                {% if forloop.last == false %}
-                /
-                {% endif %}
-              {% endfor %}
             </a>
+            {% for category in work.categories %}
+              <span class="work-categories">{{ category }}</span>
+              {% if forloop.last == false %}
+              <span class="work-categories-divider"> / </span>
+              {% endif %}
+            {% endfor %}
           </li>
           {% endif %}
         {% endfor %}
@@ -141,13 +141,13 @@
                 <span class="sr-only">image of {{ work.number }} done in {{ work.year }}</span>
               </div>
               <span class="work-text">{{ work.name }}</span>
-              {% for category in work.categories %}
-                <span class="work-categories">{{ category }}</span>
-                {% if forloop.last == false %}
-                /
-                {% endif %}
-              {% endfor %}
             </a>
+            {% for category in work.categories %}
+              <span class="work-categories">{{ category }}</span>
+              {% if forloop.last == false %}
+              <span class="work-categories-divider"> / </span>
+              {% endif %}
+            {% endfor %}
           </li>
           {% endif %}
         {% endfor %}
