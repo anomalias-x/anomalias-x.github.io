@@ -211,7 +211,8 @@
   .project-images {
     .proj-img-container {
       .proj-2015-01-watermark-pt, .proj-2015-01-watermark-en,.proj-2015-01-watermark-es {
-        background-image:  url('../images/works/xs/2015-proj01-watermark.png'); height: $proj-2015-01-img-height-xs;
+        background-image:  url('../images/works/xs/2015-proj01-watermark.png');
+        height: $proj-2015-01-img-height-xs;
         position: absolute;
         top: 0;
         z-index: 901 !important;
@@ -241,6 +242,10 @@
         background-image: url('../images/works/xs/2015-proj01-hdg5-pt.png');
         height: $proj-2015-01-hdg5-img-height-xs;
       }
+      .proj-2015-01-hdg6-pt {
+        background-image: url('../images/works/xs/2015-proj01-hdg6-pt.png');
+        height: $proj-2015-01-hdg6-img-height-xs;
+      }
       /* Project 2015-01 EN */
       .proj-2015-01-cover-en {
         background-image:  url('../images/works/xs/2015-proj01-cover-en.png');
@@ -266,6 +271,10 @@
         background-image: url('../images/works/xs/2015-proj01-hdg5-en.png');
         height: $proj-2015-01-hdg5-img-height-xs;
       }
+      .proj-2015-01-hdg6-en {
+        background-image: url('../images/works/xs/2015-proj01-hdg6-en.png');
+        height: $proj-2015-01-hdg6-img-height-xs;
+      }
       /* Project 2015-01 ES */
       .proj-2015-01-cover-es {
         background-image:  url('../images/works/xs/2015-proj01-cover-es.png');
@@ -290,6 +299,10 @@
       .proj-2015-01-hdg5-es {
         background-image: url('../images/works/xs/2015-proj01-hdg5-es.png');
         height: $proj-2015-01-hdg5-img-height-xs;
+      }
+      .proj-2015-01-hdg6-es {
+        background-image: url('../images/works/xs/2015-proj01-hdg6-es.png');
+        height: $proj-2015-01-hdg6-img-height-xs;
       }
     }
   }
@@ -328,6 +341,10 @@
           background-image: url('../images/works/sm/2015-proj01-hdg5-pt.png');
           height: $proj-2015-01-hdg5-img-height-sm;
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/sm/2015-proj01-hdg6-pt.png');
+          height: $proj-2015-01-hdg6-img-height-sm;
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/sm/2015-proj01-cover-en.png');
@@ -353,6 +370,10 @@
           background-image: url('../images/works/sm/2015-proj01-hdg5-en.png');
           height: $proj-2015-01-hdg5-img-height-sm;
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/sm/2015-proj01-hdg6-en.png');
+          height: $proj-2015-01-hdg6-img-height-sm;
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/sm/2015-proj01-cover-es.png');
@@ -377,6 +398,10 @@
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/sm/2015-proj01-hdg5-es.png');
           height: $proj-2015-01-hdg5-img-height-sm;
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/sm/2015-proj01-hdg6-es.png');
+          height: $proj-2015-01-hdg6-img-height-sm;
         }
       }
     }
@@ -416,6 +441,10 @@
           background-image: url('../images/works/md/2015-proj01-hdg5-pt.png');
           height: $proj-2015-01-hdg5-img-height-md;
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/md/2015-proj01-hdg6-pt.png');
+          height: $proj-2015-01-hdg6-img-height-md;
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/md/2015-proj01-cover-en.png');
@@ -441,6 +470,10 @@
           background-image: url('../images/works/md/2015-proj01-hdg5-en.png');
           height: $proj-2015-01-hdg5-img-height-md;
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/md/2015-proj01-hdg6-en.png');
+          height: $proj-2015-01-hdg6-img-height-md;
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/md/2015-proj01-cover-es.png');
@@ -465,6 +498,10 @@
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/md/2015-proj01-hdg5-es.png');
           height: $proj-2015-01-hdg5-img-height-md;
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/md/2015-proj01-hdg6-es.png');
+          height: $proj-2015-01-hdg6-img-height-md;
         }
       }
     }
@@ -504,6 +541,10 @@
           background-image: url('../images/works/lg/2015-proj01-hdg5-pt.png');
           height: $proj-2015-01-hdg5-img-height-lg;
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/lg/2015-proj01-hdg6-pt.png');
+          height: $proj-2015-01-hdg6-img-height-lg;
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/lg/2015-proj01-cover-en.png');
@@ -529,6 +570,10 @@
           background-image: url('../images/works/lg/2015-proj01-hdg5-en.png');
           height: $proj-2015-01-hdg5-img-height-lg;
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/lg/2015-proj01-hdg6-en.png');
+          height: $proj-2015-01-hdg6-img-height-lg;
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/lg/2015-proj01-cover-es.png');
@@ -553,6 +598,10 @@
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/lg/2015-proj01-hdg5-es.png');
           height: $proj-2015-01-hdg5-img-height-lg;
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/lg/2015-proj01-hdg6-es.png');
+          height: $proj-2015-01-hdg6-img-height-lg;
         }
       }
     }
@@ -592,6 +641,10 @@
           background-image: url('../images/works/xl/2015-proj01-hdg5-pt.png');
           height: $proj-2015-01-hdg5-img-height-xl;
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/xl/2015-proj01-hdg6-pt.png');
+          height: $proj-2015-01-hdg6-img-height-xl;
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/xl/2015-proj01-cover-en.png');
@@ -617,6 +670,10 @@
           background-image: url('../images/works/xl/2015-proj01-hdg5-en.png');
           height: $proj-2015-01-hdg5-img-height-xl;
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/xl/2015-proj01-hdg6-en.png');
+          height: $proj-2015-01-hdg6-img-height-xl;
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/xl/2015-proj01-cover-es.png');
@@ -641,6 +698,10 @@
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/xl/2015-proj01-hdg5-es.png');
           height: $proj-2015-01-hdg5-img-height-xl;
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/xl/2015-proj01-hdg6-es.png');
+          height: $proj-2015-01-hdg6-img-height-xl;
         }
       }
     }
@@ -673,6 +734,9 @@
         .proj-2015-01-hdg5-pt {
           background-image: url('../images/works/retina/xl/2015-proj01-hdg5-pt.png');
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/retina/xl/2015-proj01-hdg6-pt.png');
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/retina/xl/2015-proj01-cover-en.png');
@@ -692,6 +756,9 @@
         .proj-2015-01-hdg5-en {
           background-image: url('../images/works/retina/xl/2015-proj01-hdg5-en.png');
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/retina/xl/2015-proj01-hdg6-en.png');
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/retina/xl/2015-proj01-cover-es.png');
@@ -710,6 +777,9 @@
         }
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/retina/xl/2015-proj01-hdg5-es.png');
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/retina/xl/2015-proj01-hdg6-es.png');
         }
       }
     }
@@ -749,6 +819,10 @@
           background-image: url('../images/works/xxl/2015-proj01-hdg5-pt.png');
           height: $proj-2015-01-hdg5-img-height-xxl;
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/xxl/2015-proj01-hdg6-pt.png');
+          height: $proj-2015-01-hdg6-img-height-xxl;
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/xxl/2015-proj01-cover-en.png');
@@ -774,6 +848,10 @@
           background-image: url('../images/works/xxl/2015-proj01-hdg5-en.png');
           height: $proj-2015-01-hdg5-img-height-xxl;
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/xxl/2015-proj01-hdg6-en.png');
+          height: $proj-2015-01-hdg6-img-height-xxl;
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/xxl/2015-proj01-cover-es.png');
@@ -798,6 +876,10 @@
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/xxl/2015-proj01-hdg5-es.png');
           height: $proj-2015-01-hdg5-img-height-xxl;
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/xxl/2015-proj01-hdg6-es.png');
+          height: $proj-2015-01-hdg6-img-height-xxl;
         }
       }
     }
@@ -830,6 +912,9 @@
         .proj-2015-01-hdg5-pt {
           background-image: url('../images/works/retina/xxl/2015-proj01-hdg5-pt.png');
         }
+        .proj-2015-01-hdg6-pt {
+          background-image: url('../images/works/retina/xxl/2015-proj01-hdg6-pt.png');
+        }
         /* Project 2015-01 EN */
         .proj-2015-01-cover-en {
           background-image:  url('../images/works/retina/xxl/2015-proj01-cover-en.png');
@@ -849,6 +934,9 @@
         .proj-2015-01-hdg5-en {
           background-image: url('../images/works/retina/xxl/2015-proj01-hdg5-en.png');
         }
+        .proj-2015-01-hdg6-en {
+          background-image: url('../images/works/retina/xxl/2015-proj01-hdg6-en.png');
+        }
         /* Project 2015-01 ES */
         .proj-2015-01-cover-es {
           background-image:  url('../images/works/retina/xxl/2015-proj01-cover-es.png');
@@ -867,6 +955,9 @@
         }
         .proj-2015-01-hdg5-es {
           background-image: url('../images/works/retina/xxl/2015-proj01-hdg5-es.png');
+        }
+        .proj-2015-01-hdg6-es {
+          background-image: url('../images/works/retina/xxl/2015-proj01-hdg6-es.png');
         }
       }
     }
