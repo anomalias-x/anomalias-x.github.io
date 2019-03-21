@@ -5304,6 +5304,32 @@ summary.aside-right-menu::-webkit-details-marker {
     width: 1376px;
     height: 344px; } }
 /*****************************************************************************/
+.portfolio-pdf-pg {
+  max-width: 100%;
+  margin-top: 1em; }
+  .portfolio-pdf-pg .pdf-document {
+    margin: 0 auto;
+    width: 300px !important;
+    height: 80%;
+    height: 80vh; }
+
+@media (min-width: 544px) {
+  .portfolio-pdf-pg .pdf-document {
+    width: 544px !important; } }
+@media (min-width: 768px) {
+  .portfolio-pdf-pg {
+    margin-top: 0; }
+    .portfolio-pdf-pg .pdf-document {
+      width: 705px !important; } }
+@media (min-width: 992px) {
+  .portfolio-pdf-pg .pdf-document {
+    width: 910px !important; } }
+@media (min-width: 1200px) {
+  .portfolio-pdf-pg .pdf-document {
+    width: 1101px !important; } }
+@media (min-width: 1500px) {
+  .portfolio-pdf-pg .pdf-document {
+    width: 1376px !important; } }
 /* End of Pages
 ---------------------------------------------------------------- */
 
